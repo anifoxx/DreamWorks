@@ -137,107 +137,83 @@ Shot   Type / Lens                                                              
 
 ## Scene 2 – Kitchen (Morning)
 
+No cooking, no greeting, no establishing pleasantries: this scene picks up already mid-conversation.
+The conflict stays fully verbal and restrained — Leo never raises his voice or accuses Vanessa
+outright; the manipulation lives entirely in comparison, false modesty and a caring-sounding reframe.
+Full dialogue lives in «Dialogue: Pilot (Episode 1).md».
+
 ```text
-                       Description    Camera /         Lighting &      Emotion &
- Shot   Type / Lens                                                                     Transition
-                       & Blocking     Movement         Color           Purpose
+Shot 8 — Insert/Close-up pulling to Establishing; 35 mm
+Description & Blocking: Still the same two cups from last night, now in full morning light on the
+  kitchen table. No dialogue, no characters visible yet.
+Camera/Movement: Slow pull-back / crane out — starts on the same close framing as shot 7, reveals the
+  open-plan kitchen as it pulls back.
+Lighting & Color: Cool morning light floods through windows; warm under-cabinet lights.
+Emotion & Purpose: Confirms continuity (same cups survived the night) before ever cutting away from
+  them; places viewer in the new scene without a hard cut.
+Transition: Cut to shot 9 once the kitchen is fully revealed — Leo and Vanessa are already there,
+  already mid-conversation.
 
-                       Still the
-                       same two       Slow pull-
-       Insert/         cups from      back / crane
-       Close-up        last night,    out: starts     Cool morning    Confirms        Cut to
-       pulling to      now in full    on the same     light floods    continuity      shot 9
- 8     Establishing;   morning        close framing   through         (same cups      once the
-       35 mm           light on the   as shot 7,       windows;        survived the    kitchen is
-                       kitchen        reveals the      warm            night) before   fully
-                       table. No      open-plan        under-cabinet   ever cutting    revealed.
-                       dialogue.      kitchen as it    lights.         away from
-                                      pulls back.                      them; then
-                                                                        places viewer
-                                                                        in the new
-                                                                        scene.
+Shot 9 — Two-shot; 50 mm
+Description & Blocking: Leo and Vanessa in the kitchen, morning light. No preamble — we join them
+  already talking. Leo delivers his opening comparison line; Vanessa starts to answer and is cut off
+  by his next line.
+Camera/Movement: Static, eye level; barely perceptible push-in as the exchange lands.
+Lighting & Color: Morning light is warm; shadows stay soft — nothing visually signals conflict yet,
+  which is the point.
+Emotion & Purpose: Leo sounds caring, almost gentle; the audience should only feel the wrongness in
+  the words, not in the visuals or his tone.
+Transition: Cut to shot 10 as Vanessa answers.
 
-                       Leo at the
-                                      Handheld,        Warm light
-                       stove                                                            Cut to
-                                      slight           from stove
-        Medium         preparing                                       Conveys Leo’s    shot 10
-                                      movement         and pendant
- 9      shot;          breakfast.                                      role as          when
-                                      to reflect       lamps; cool
-        50 mm          He glances                                      provider.        Vanessa
-                                      domestic         daylight in
-                       at Vanessa                                                       enters.
-                                      energy.          background.
-                       off-screen.
+Shot 10 — Close-up on Vanessa; 85 mm
+Description & Blocking: She states her hurt plainly for the first time in the episode — quietly, not
+  as a complaint.
+Camera/Movement: Static; shallow depth of field.
+Lighting & Color: Morning light on her face; background softly blown out.
+Emotion & Purpose: The first moment of real, named vulnerability in the whole episode.
+Transition: Cut to shot 11.
 
-                       Vanessa
-                                      Steadicam
-                       enters,
-                                      tracking                         Shows her
-                       notices the                     Cool daylight
-        Medium                        from                             contentment
-                       cups, and                       emphasises                       Cut to
- 10     shot;                         behind;                          and
-                       smiles. She                     morning                          shot 11.
-        50 mm                         pans to                          obliviousness
-                       moves                           calm.
-                                      reveal her                       to control.
-                       toward the
-                                      reaction.
-                       table.
+Shot 11 — Close-up on Leo; 85 mm
+Description & Blocking: He softens further, almost tender, and reframes her pain as something she
+  should simply see differently — folding the whole demand to change into a caring-sounding line.
+Camera/Movement: Static; shallow depth of field, holds through the pause before his last line.
+Lighting & Color: Warm light on his face; calm, controlled exterior.
+Emotion & Purpose: This is the crux of the manipulation — it should sound loving, not cruel.
+Transition: Cut to shot 12.
 
-                       Vanessa
-                       and Leo sit
-                       at the table   Camera at        Morning light   Displays
-                       eating         eye level;       is warm;        dynamic shift:
-        Two-shot;      breakfast.     slight           shadows         Leo’s casual     Cut to
- 11
-        50 mm          He             push in as       deepen as       criticism vs.    shot 12.
-                       mentions       tension          conversation    Vanessa’s
-                       his efforts;   rises.           turns.          defensiveness.
-                       she
-                       responds.
+Shot 12 — Close-up on Vanessa; 85 mm
+Description & Blocking: She asks her quiet, disarming question — not a challenge, almost sincere.
+Camera/Movement: Static; slight rack focus to keep her eyes sharp.
+Lighting & Color: Same soft morning light as shot 10.
+Emotion & Purpose: The first time in the episode she turns the lens back on him instead of defending
+  herself.
+Transition: Cut to shot 13.
 
-                       Leo’s face
-                       as he softly
-                                                                       Highlights
-                       accuses        Static;          Warm light
-                                                                       gaslighting;
-        Close-up;      Vanessa of     shallow          emphasises                       Cut to
- 12                                                                    makes
-        85 mm          being          depth of         his calm                         shot 13.
-                                                                       audience
-                       ungrateful.    field.           exterior.
-                                                                       uneasy.
-                       He smiles
-                       slightly.
+Shot 13 — Close-up on Leo; 85 mm, no dialogue
+Description & Blocking: His composure flickers for a fraction of a second — genuine surprise — before
+  he catches himself. He does not answer.
+Camera/Movement: Static, held a beat longer than a normal reaction shot to let the micro-expression
+  register.
+Lighting & Color: Same warm light as shot 11, now feels slightly harder/flatter.
+Emotion & Purpose: The first moment in the whole episode where he, not Vanessa, loses control of his
+  face.
+Transition: Cut to shot 14.
 
-                              Description       Camera /            Lighting &       Emotion &
-     Shot      Type / Lens                                                                           Transition
-                              & Blocking        Movement            Color            Purpose
+Shot 14 — Close-up on Vanessa; 85 mm, no dialogue
+Description & Blocking: She holds his gaze a beat longer, then looks away — she neither argues further
+  nor concedes.
+Camera/Movement: Static; slight tilt down as she looks away.
+Lighting & Color: Cool daylight slightly dims the palette, echoing her withdrawal.
+Emotion & Purpose: Leaves the exchange unresolved on purpose — first seed of doubt, not a confrontation.
+Transition: Cut to shot 15.
 
-                              Vanessa’s
-                                                Static;             Cool daylight
-                              reaction.                                              Reveals her
-                                                slight tilt         cools the
-               Close-up;      Her smile                                              growing         Cut to
-     13                                         down to             palette,
-               85 mm          fades; she                                             unease and      shot 14.
-                                                follow her          reflecting
-                              looks                                                  confusion.
-                                                gaze.               discomfort.
-                              down.
-
-                              The cups
-                              on the                                                 Symbolises
-                                                                    Morning light;                   Fade out
-               Insert;        table —           Static                               imbalance in
-     14                                                             neutral                          to end
-               35 mm          one still         overhead.                            their
-                                                                    colour.                          episode.
-                              full, one                                              relationship.
-                              empty.
+Shot 15 — Insert; 35 mm
+Description & Blocking: The same two cups from shots 7–8 — one still full, one already empty.
+Camera/Movement: Static overhead.
+Lighting & Color: Neutral morning light.
+Emotion & Purpose: Symbolises the imbalance now settling into their relationship; closing image of the
+  episode.
+Transition: Fade out to end episode.
 ```
 
 ## Notes
@@ -246,15 +222,11 @@ Shot   Type / Lens                                                              
 
 2. Lens Consistency: All coverage within a scene uses the same focal length to avoid perspective shifts and maintain continuity.
 
-3. Lighting Continuity: Scene 1 uses warm practical lights and cool city lights to evoke intimacy;
-
-## Scene 2 uses soft morning light juxtaposed with warm interiors to signal a new day and
-
-emerging tension 2 .
+3. Lighting Continuity: Scene 1 uses warm practical lights and cool city lights to evoke intimacy; Scene 2 uses soft morning light that never visually shifts with the conflict — the tension stays entirely in the dialogue and performance, not in the lighting, until the final cups insert.
 
 4. Camera Movement: Minimal movement in establishing shots; subtle push-ins and handheld sway mimic breathing and create intimacy; transitions use cuts or dissolves as noted.
 
-5. Duration: Each shot lasts 3–8 seconds, allowing enough time for viewers to perceive emotion without dragging the pace. Total episode duration remains within 50–60 seconds. 1    35mm, 50mm, 85mm Comparison | Lens Review - shanelongphotography.com
+5. Duration: 15 shots total; each lasts 3–8 seconds, allowing enough time for viewers to perceive emotion without dragging the pace. Total episode duration remains within ≈60 seconds. 1    35mm, 50mm, 85mm Comparison | Lens Review - shanelongphotography.com
 
 https://shanelongphotography.com/2020/04/27/35mm-50mm-85mm-comparison-lens-review/
 

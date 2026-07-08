@@ -16,8 +16,10 @@ Vanessa and Leo already live together when our season begins — a stylish young
 apartment on the top floor of a new residential building in Moscow’s Hamóvniki district. To the outside
 world, and to Vanessa herself, they look like the perfect couple. The season does not open with a
 meeting; it opens with an intimate night on their shared balcony that feels like everything she’s ever
-wanted, followed the next morning by something almost too small to name — Leo’s first soft, smiling
-criticism over breakfast. Following Final Draft’s advice, the closing moments of the pilot raise a
+wanted, followed the next morning by a conflict that never once raises its voice — Leo frames himself
+as the one who gives everything and asks for so little in return, and Vanessa, for the first time in
+the episode, quietly refuses to simply absorb that. Following Final Draft’s advice, the closing moments
+of the pilot raise a
 question that propels the rest of the season: was that a slip, or the first loose thread in something
 that’s about to unravel? A season arc starts by defining the inciting incident and uses the final beat
 of the pilot to set up a question that drives viewers to continue 3 ; here the inciting incident is not
@@ -34,9 +36,11 @@ We see Leo’s warmth, charm and attentiveness inside their established routine 
 curated stories about his past that keep drawing Vanessa closer. Vanessa’s close friend Sonya gives us
 a window into her life outside the relationship. At the same time, small red flags appear: Leo
 dismisses Vanessa’s opinions, subtly questions her memory and uses her vulnerability to tighten the
-bond. The pilot itself contains the first crack: an intimate balcony night that flows into breakfast
-the next morning, ending on Leo’s first soft, smiling criticism — raising the question that drives the
-season 3 .
+bond. The pilot itself contains the first crack: an intimate balcony night that flows into a quiet,
+restrained kitchen conflict the next morning — Leo never accuses Vanessa outright, but the logic under
+his words is unmistakable: he provides everything, so she should tolerate his moods and adjust herself
+to need less. Vanessa doesn’t argue and doesn’t concede; she answers his caring-sounding line with one
+quiet question that catches him off guard — raising the question that drives the season 3 .
 
 ## Middle
 
@@ -103,7 +107,7 @@ whether he can develop insight, but for Season One he remains a villain.
 A season Bible should include summaries for each episode rather than scene-by-scene detail is a
 high-level outline 2 . Here:
 
-1. Pilot – “Balcony & Breakfast”: Vanessa steps out alone onto the balcony of the apartment she shares with Leo at night; he joins her with two cups of tea, and their closeness is instant — he speaks softly about a past “sacrifice,” and she listens caught between hope and doubt. The next morning he cooks her breakfast — warm and attentive, until he softly, smilingly criticises her for being “ungrateful.” Ending beat: two cups on the table, one still full, one already empty — the first hint of imbalance 3 .
+1. Pilot – “Balcony & Breakfast”: Vanessa steps out alone onto the balcony of the apartment she shares with Leo at night; he joins her with two cups of tea, and their closeness is instant — he recalls how they met and calls her his muse, warm and sweeping. The next morning, with no preamble, he tells her — gently, never raising his voice — that she should feel lucky, that he never complains, that she should simply see things differently, all in the name of making things "easier for both of them." She names her hurt plainly instead of arguing; when she quietly asks whether it's easy for him too, he has no answer, and for a moment loses his composure before she does. Ending beat: two cups on the table, one still full, one already empty — the first hint of imbalance 3 .
 
 2. “Gifts”: Leo showers Vanessa with presents and attention. He tells a tragic story from his past. Vanessa introduces him to her best friend, Sonya, who feels a flicker of unease at how quickly he’s moved in.
 

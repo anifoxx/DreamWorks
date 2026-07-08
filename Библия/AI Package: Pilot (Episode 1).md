@@ -214,8 +214,8 @@ Visual Bible.
   kitchen around them — floor-to-ceiling windows, sleek cabinets, marble island. Maintain a 35 mm
   virtual lens throughout the pull-back; no hard cut to a wide shot."
 
-- Continuation: Once the pull-back completes and the kitchen is fully revealed, cut to shot 9 as Leo
-  enters frame at the stove.
+- Continuation: Once the pull-back completes and the kitchen is fully revealed, cut to shot 9 — Leo
+  and Vanessa are already standing in the kitchen, already mid-conversation. No cooking, no greeting.
 
 - Motion notes: Single continuous pull-back/crane-out move; no separate wide static insert.
 
@@ -226,75 +226,170 @@ Visual Bible.
 - Rendering notes: Colour temperature cool but softened; clean stylized render; highlights not blown;
   keep the cups sharp through the pull-back before the kitchen resolves into focus.
 
-## Shot 9 – Leo Cooking (Kitchen)
+## Shot 9 – Two-Shot, Already Mid-Conversation (Kitchen)
 
-- GPT Image prompt: "Medium shot of Leo, DreamWorks-style 3D animated character, cooking breakfast in a
-  modern kitchen. Russet/blond wavy hair, light sweater matching his reference sheet. The sun casts a
-  cool morning glow through the windows while warm light from a pendant lamp illuminates him. 50 mm
-  virtual lens, cinematic 3D animated lighting."
+- GPT Image prompt: "Two-shot of Vanessa and Leo, DreamWorks-style 3D animated characters, standing in
+  a modern kitchen in warm morning light — no food, no cooking props in use. Leo speaks calmly, almost
+  gently; Vanessa begins to answer, caught mid-word. Both match their character reference sheets
+  exactly. 50 mm virtual lens, cinematic 3D animated lighting."
 
-- Negative prompt: "No messy countertops, no futuristic appliances, no saturated toon colours, no
+- Negative prompt: "No cooking utensils in use, no plates of food, no exaggerated expressions, no
+  visible anger or raised voices in body language, no photoreal rendering."
+
+- Veo prompt: "Animate the two characters already in conversation, DreamWorks-style 3D animation. Leo
+  delivers his line calmly, almost warmly; Vanessa opens her mouth to respond and is gently cut off.
+  Camera is static at eye level with a barely perceptible push-in as the exchange lands. Maintain a
+  50 mm virtual lens. Duration 6 s."
+
+- Continuation: Cut to shot 10 on Vanessa as she answers.
+
+- Motion notes: Push-in must stay almost invisible — the visual tone should not telegraph conflict; the
+  words should carry all of the tension.
+
+- Continuity checklist: No cooking/food props in frame; wardrobe and hair match reference sheets; the
+  two cups from shots 7–8 are visible somewhere in the kitchen background, untouched.
+
+- Rendering notes: Warm, soft morning light with no dramatic shadows; nothing in the lighting should
+  hint at the conflict yet.
+
+## Shot 10 – Close-up on Vanessa, First Named Hurt (Kitchen)
+
+- GPT Image prompt: "Close-up of Vanessa, DreamWorks-style 3D animated character, speaking quietly in
+  soft morning light. Long dark wavy hair, emerald-green eyes, calm but hurt expression — not tearful,
+  not defensive. Matches her character reference sheet exactly. 85 mm virtual lens, shallow depth of
+  field, cinematic 3D animated lighting."
+
+- Negative prompt: "No tears, no raised eyebrows of anger, no exaggerated hurt expression, no
   photoreal rendering."
 
-- Veo prompt: "Animate Leo cracking eggs and stirring food at the stove, DreamWorks-style 3D animation.
-  The camera is virtual handheld, with slight micro-movement as if by a person watching him from a
-  distance. Use a 50 mm virtual lens and maintain natural light interplay for 5 s."
+- Veo prompt: "Hold the close-up of Vanessa delivering her line for 4 s, DreamWorks-style 3D animation.
+  Camera static, shallow depth of field. Her delivery is quiet and plain, not a complaint — the first
+  time in the episode she names her feelings directly."
 
-- Continuation: Cut to shot 10 as Vanessa enters.
+- Continuation: Cut to shot 11 on Leo's response.
 
-- Motion notes: Subtle handheld; keep focus on Leo's hands and face.
+- Motion notes: Minimal movement; hold on her eyes.
 
-- Continuity checklist: Wardrobe, hair as per Character Bible and reference sheet; kitchen props in
-  place; cups visible in background.
+- Continuity checklist: Hair, pendant and wardrobe match reference sheet; expression reads as quiet
+  hurt, not anger or tears.
 
-- Rendering notes: Combine cool daylight and warm stove light; maintain soft shadows.
+- Rendering notes: Soft morning light on her face; background softly out of focus.
 
-## Shot 10 – Vanessa Enters (Kitchen)
+## Shot 11 – Close-up on Leo, the Caring-Sounding Reframe (Kitchen)
 
-- GPT Image prompt: "Medium shot of Vanessa, DreamWorks-style 3D animated character, walking into a
-  modern kitchen in morning light. Long dark wavy hair matching her reference sheet. She notices two
-  cups on the table and smiles softly. 50 mm virtual lens, cinematic 3D animated lighting."
+- GPT Image prompt: "Close-up of Leo, DreamWorks-style 3D animated character, speaking gently in warm
+  morning light. Russet/blond wavy hair, bright blue eyes, soft almost-tender expression matching his
+  reference sheet's warmer emotion poses — not a smirk, not overtly smug. 85 mm virtual lens, shallow
+  depth of field, cinematic 3D animated lighting."
 
-- Negative prompt: "No exaggerated smile, no hurried cartoon movement, no unrealistic costumes, no
+- Negative prompt: "No smirking/villain caricature, no visible anger, no exaggerated warmth, no
   photoreal rendering."
 
-- Veo prompt: "Animate Vanessa walking into the kitchen, pausing to glance at the cups, then moving
-  toward the table, DreamWorks-style 3D animation. The camera (virtual steadicam) follows from behind,
-  panning to her side as she reacts. Use a 50 mm virtual lens; duration 5 s."
+- Veo prompt: "Hold the close-up of Leo delivering his reframe for 5–6 s, DreamWorks-style 3D
+  animation, including a brief pause before his last line. Camera static, shallow depth of field.
+  Delivery should read as loving and reasonable, not cruel — the manipulation is entirely in the words."
 
-- Continuation: Cut to shot 11 for the breakfast conversation.
+- Continuation: Cut to shot 12 on Vanessa's question.
 
-- Motion notes: Smooth follow; slight pan reveals her reaction.
+- Motion notes: Minimal movement; hold through the pause without cutting away.
 
-- Continuity checklist: Vanessa's hair and clothing consistent with reference sheet; cups positioned as
-  in shot 8; morning light consistent.
+- Continuity checklist: Leo's hair/stubble as per Character Bible and reference sheet; expression stays
+  warm and controlled throughout, never hardens.
 
-- Rendering notes: Maintain natural colour temperature; keep depth of field moderate to separate her
-  from background.
+- Rendering notes: Warm light on his face; calm, composed rendering — nothing should visually signal
+  that this is the manipulative core of the scene.
 
-## Shots 11–14 – Breakfast Dialogue and Close-ups
+## Shot 12 – Close-up on Vanessa, the Disarming Question (Kitchen)
 
-For the remaining shots (table conversation, close-ups and insert), follow similar structure:
+- GPT Image prompt: "Close-up of Vanessa, DreamWorks-style 3D animated character, asking a quiet
+  question in soft morning light. Calm, genuinely curious expression — not challenging, not ironic.
+  Matches her character reference sheet exactly. 85 mm virtual lens, shallow depth of field, cinematic
+  3D animated lighting."
 
-- GPT Image prompts should describe both DreamWorks-style 3D animated characters seated at a modern
-  kitchen table in the morning, with warm and cool light interplay. Close-ups focus on faces,
-  emphasising micro-expressions and subtle mood shifts as shown on the reference sheets' emotion rows.
+- Negative prompt: "No smirk, no confrontational expression, no raised eyebrow of challenge, no
+  photoreal rendering."
 
-- Negative prompts should avoid photorealism, melodrama, theatrical lighting, or comedic/chibi
-  proportions.
+- Veo prompt: "Hold the close-up of Vanessa asking her question for 3–4 s, DreamWorks-style 3D
+  animation. Camera static with slight rack focus to keep her eyes sharp. Delivery is calm and sincere,
+  almost tender — not a challenge."
 
-- Veo prompts should specify static or slight push-in virtual camera, maintain lens consistency (50 mm
-  for two-shot, 85 mm for close-ups), and indicate the duration (4–5 s) with natural pauses for dialogue
-  delivery. For the final insert of the cups (shot 14), specify an overhead static shot and a slow fade
-  out.
+- Continuation: Cut to shot 13 on Leo's reaction.
 
-- Motion notes should highlight small movements: hand gestures, head tilts, eye contact.
+- Motion notes: Slight rack focus only; no other movement.
 
-- Continuity checklist should ensure props (cups, plates), wardrobe and hair remain consistent with the
-  character reference sheets; emotional progression aligns with Episode Design.
+- Continuity checklist: Hair, pendant, wardrobe consistent with reference sheet; expression reads as
+  sincere, not smug or triumphant.
 
-- Rendering notes should maintain the established DreamWorks-style 3D look, clean stylized shading and
-  balanced lighting.
+- Rendering notes: Same soft morning light as shot 10, for visual continuity between her two close-ups.
+
+## Shot 13 – Close-up on Leo, Composure Flickers (Kitchen, no dialogue)
+
+- GPT Image prompt: "Extreme close-up of Leo, DreamWorks-style 3D animated character, a fraction-of-a-
+  second flicker of genuine surprise crossing his face before he catches himself — matching his
+  reference sheet's features exactly, but with a rare, almost-invisible crack in his usual composed
+  expression. 85 mm virtual lens, shallow depth of field, cinematic 3D animated lighting."
+
+- Negative prompt: "No overt shock, no wide eyes, no mouth agape — the reaction must be subtle, almost
+  missable, no photoreal rendering."
+
+- Veo prompt: "Hold on Leo's face for 3 s, DreamWorks-style 3D animation, no dialogue. Animate a
+  micro-expression: a barely perceptible widening of the eyes or falter in his usual calm, held for a
+  beat, then smoothed back over as he regains his composure. Camera static, held slightly longer than a
+  normal reaction shot."
+
+- Continuation: Cut to shot 14 on Vanessa looking away.
+
+- Motion notes: The entire shot is the micro-expression; no camera movement.
+
+- Continuity checklist: This is the first shot in the whole episode where Leo's face shows something he
+  didn't choose to show — keep it subtle enough that it rewards a close rewatch rather than announcing
+  itself.
+
+- Rendering notes: Same warm light as shot 11, but read slightly harder/flatter to mark the shift.
+
+## Shot 14 – Close-up on Vanessa, Looking Away (Kitchen, no dialogue)
+
+- GPT Image prompt: "Close-up of Vanessa, DreamWorks-style 3D animated character, holding a steady gaze
+  for a beat before looking down and away. Calm, unresolved expression — neither defiant nor defeated.
+  Matches her character reference sheet exactly. 85 mm virtual lens, shallow depth of field, cinematic
+  3D animated lighting."
+
+- Negative prompt: "No tears, no smiling, no triumphant expression, no photoreal rendering."
+
+- Veo prompt: "Hold on Vanessa for 3 s, DreamWorks-style 3D animation, no dialogue. She holds his gaze,
+  then slightly tilts her head down and looks away. Camera static with a slight tilt down following her
+  gaze."
+
+- Continuation: Cut to shot 15, the closing cups insert.
+
+- Motion notes: Slight tilt down only, timed to her gaze shift.
+
+- Continuity checklist: Hair, pendant, wardrobe consistent with reference sheet; expression reads as
+  quietly unresolved, not as a clear win or loss for either character.
+
+- Rendering notes: Cool daylight very slightly dims the palette compared to shot 12, echoing her
+  withdrawal.
+
+## Shot 15 – Insert of Cups, Episode Closer (Kitchen)
+
+- GPT Image prompt: "Close overhead view of the same two white ceramic mugs from shots 7–8, on the
+  kitchen table in neutral morning light, DreamWorks-style 3D animated render. One mug still full, the
+  other empty. No characters in frame. 35 mm virtual lens, cinematic 3D animated lighting."
+
+- Negative prompt: "No human figures, no messy table, no dramatic lighting, no photoreal rendering."
+
+- Veo prompt: "Static overhead shot of the two cups, DreamWorks-style 3D animation, held for 3–4 s, then
+  a slow fade to black to end the episode. Maintain 35 mm virtual lens throughout."
+
+- Continuation: End of episode — fade out.
+
+- Motion notes: Static hold, then fade; no camera movement.
+
+- Continuity checklist: Cup design matches shots 7–8 exactly; which cup is empty is left deliberately
+  unassigned/ambiguous — the imbalance should read as belonging to the relationship, not to one person.
+
+- Rendering notes: Neutral, slightly cool morning light; no warm/cool bias that would editorialise the
+  symbol — let the imbalance speak for itself.
 
 ## General Notes
 
