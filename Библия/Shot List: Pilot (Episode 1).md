@@ -121,16 +121,18 @@ Shot   Type / Lens                                                              
                      hesitation.
 
                      Two cups
-                     sitting on                                                             Dissolve/
-                                                      Warm glow        Symbolises
-                     table           Static                                                 fade
-       Insert;                                        of candle;       unconsumed
-7                    beside          overhead                                               through
-       35 mm                                          city lights in   promises; anchors
-                     them. Both      shot.                                                  time to
-                                                      background.      continuity.
-                     are nearly                                                             morning.
-                     full.
+                     sitting on      Static
+                                     overhead        Warm glow of
+                     table           close-up;       candle and
+       Insert;       beside          holds, then     city lights      No dialogue.
+7      close-up;     them. Both      dissolves as    at night,        Symbolises      Match-
+       35 mm         nearly full.    surrounding      dissolving       unconsumed      dissolve,
+                     Candle          light shifts     through dawn     promises;       still
+                     burning         night → dawn     amber into       the whole       close, into
+                     beside them.    → morning,       soft cool        night passes    shot 8.
+                     No characters   camera never     morning          inside this
+                     visible.        leaves the       daylight by      one close
+                                     cups.            shot's end.      shot.
 ```
 
 ## Scene 2 – Kitchen (Morning)
@@ -140,19 +142,20 @@ Shot   Type / Lens                                                              
  Shot   Type / Lens                                                                     Transition
                        & Blocking     Movement         Color           Purpose
 
-                       Wide of the
-                       open-plan                       Cool morning
-                       kitchen in                      light floods    Places viewers
-                                      Static
-        Establishing   morning                         through         in new scene;
-                                      tripod;                                           Cut to
- 8      shot;          light. Two                      windows;        signals time
-                                      slight                                            shot 9.
-        35 mm          cups from                       warm            change and
-                                      push in.
-                       last night                      under-cabinet   continuity.
-                       sit on the                      lights.
-                       table.
+                       Still the
+                       same two       Slow pull-
+       Insert/         cups from      back / crane
+       Close-up        last night,    out: starts     Cool morning    Confirms        Cut to
+       pulling to      now in full    on the same     light floods    continuity      shot 9
+ 8     Establishing;   morning        close framing   through         (same cups      once the
+       35 mm           light on the   as shot 7,       windows;        survived the    kitchen is
+                       kitchen        reveals the      warm            night) before   fully
+                       table. No      open-plan        under-cabinet   ever cutting    revealed.
+                       dialogue.      kitchen as it    lights.         away from
+                                      pulls back.                      them; then
+                                                                        places viewer
+                                                                        in the new
+                                                                        scene.
 
                        Leo at the
                                       Handheld,        Warm light

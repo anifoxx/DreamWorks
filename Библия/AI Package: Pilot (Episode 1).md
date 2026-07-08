@@ -174,49 +174,57 @@ Visual Bible.
 
 - Rendering notes: Balanced highlights; maintain warm key light and cool rim.
 
-## Shot 7 – Insert of Cups (Night–Morning Transition)
+## Shot 7 – Insert of Cups (Night–Dawn Transition, close-up only)
 
 - GPT Image prompt: "Close overhead view of two white ceramic mugs on a balcony table at night,
   DreamWorks-style 3D animated render. A small candle burns beside them. The mugs are nearly full. The
-  city skyline is blurred in the background. 35 mm virtual lens, cinematic 3D animated lighting."
+  city skyline is blurred in the background. No characters in frame. 35 mm virtual lens, cinematic 3D
+  animated lighting."
 
-- Negative prompt: "No human figures, no messy table, no neon colours, no photoreal rendering."
+- Negative prompt: "No human figures, no messy table, no neon colours, no photoreal rendering, no wide
+  establishing framing — stay tight on the cups."
 
 - Veo prompt: "Begin with the reference image of the cups at night, DreamWorks-style 3D animation. Hold
-  for 2 s, then slowly dissolve to the same composition at dawn. The liquid in the cups is unchanged.
-  Maintain 35 mm virtual lens and static camera. Duration 5 s."
+  for 2 s, then slowly dissolve as the surrounding light shifts from night-blue through dawn amber to
+  soft cool morning daylight — the camera never leaves this close framing on the cups. The liquid in
+  the cups is unchanged. Maintain 35 mm virtual lens and static camera throughout. Duration 5 s."
 
-- Continuation: Dissolve into shot 8 establishing the kitchen.
+- Continuation: Match-dissolve, still close on the cups, directly into shot 8 — no dialogue plays over
+  this shot; the cups carry the passage of time purely visually.
 
-- Motion notes: Use dissolve transition to convey passage of time.
+- Motion notes: Dissolve conveys passage of time; camera does not cut wide at any point in this shot.
 
 - Continuity checklist: Cup positions unchanged; candle may have burned down slightly; mugs match props
-  list.
+  list; no characters or dialogue in this shot.
 
-- Rendering notes: Ensure seamless blend between night and morning colour temperatures. Night image
-  uses cool blue shadows; morning uses soft warm daylight.
+- Rendering notes: Ensure seamless blend between night and morning colour temperatures within the same
+  close framing. Night image uses cool blue shadows; morning uses soft warm daylight.
 
-## Shot 8 – Establishing Shot (Kitchen)
+## Shot 8 – Cups at Morning, Pull-Back to Establish Kitchen
 
-- GPT Image prompt: "Wide vertical shot of a modern, open-plan kitchen in morning light,
-  DreamWorks-style 3D animated render. Floor-to-ceiling windows flood the space with cool daylight. Two
-  cups from the previous night sit on a wooden table. Sleek cabinets and a marble island are visible.
-  35 mm virtual lens, cinematic 3D animated lighting."
+- GPT Image prompt: "Extreme close-up of the same two white ceramic mugs, now on a kitchen table in
+  soft morning light, DreamWorks-style 3D animated render, matching shot 7's framing exactly. No
+  characters visible yet. 35 mm virtual lens, cinematic 3D animated lighting."
 
-- Negative prompt: "No people, no clutter, no harsh shadows, no trendy neon, no photoreal rendering."
+- Negative prompt: "No people, no clutter, no harsh shadows, no trendy neon, no photoreal rendering, no
+  dialogue/caption text."
 
-- Veo prompt: "Start with the still frame of the empty kitchen at dawn, DreamWorks-style 3D animation.
-  Hold for 2 s, then gently push in towards the table for 4 s, drawing attention to the cups. Use a
-  35 mm virtual lens and tripod. Natural morning light shifts slightly as the sun rises."
+- Veo prompt: "Start on the same close-up of the cups where shot 7 left off, now in full morning light,
+  DreamWorks-style 3D animation. Over 4–5 s, slowly pull back / crane out to reveal the modern open-plan
+  kitchen around them — floor-to-ceiling windows, sleek cabinets, marble island. Maintain a 35 mm
+  virtual lens throughout the pull-back; no hard cut to a wide shot."
 
-- Continuation: Cut to shot 9 as Leo enters.
+- Continuation: Once the pull-back completes and the kitchen is fully revealed, cut to shot 9 as Leo
+  enters frame at the stove.
 
-- Motion notes: Slow push-in; emphasise quiet morning atmosphere.
+- Motion notes: Single continuous pull-back/crane-out move; no separate wide static insert.
 
-- Continuity checklist: Cups unchanged from balcony; window view matches World Bible; lighting
-  consistent with time of day.
+- Continuity checklist: Cups unchanged from shot 7 (same position, same near-full liquid level);
+  window view matches World Bible; lighting consistent with time of day; the cups are never referenced
+  in dialogue — they read as a purely visual motif.
 
-- Rendering notes: Colour temperature cool but softened; clean stylized render; highlights not blown.
+- Rendering notes: Colour temperature cool but softened; clean stylized render; highlights not blown;
+  keep the cups sharp through the pull-back before the kitchen resolves into focus.
 
 ## Shot 9 – Leo Cooking (Kitchen)
 
