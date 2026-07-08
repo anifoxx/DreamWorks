@@ -137,8 +137,9 @@ theme from the outset helps keep choices focused 11 .
 
 ## Tone and Genre
 
-The tone remains realist and intimate. Episodes are shot with a handheld, naturalistic camera and
-maintain the warm–cool colour script outlined in the Visual Bible. Humour is minimal; tension builds
+The tone remains realist and intimate. Episodes are rendered in DreamWorks-style 3D animation with a
+virtual handheld, naturalistic camera feel and maintain the warm–cool colour script outlined in the
+Visual Bible. Humour is minimal; tension builds
 gradually with occasional relief in B-story scenes. Because the series is a psychological drama, the
 stakes are emotional rather than physical—consistent with the guidance that your season should
 reflect the genre and tone of your show 12 .

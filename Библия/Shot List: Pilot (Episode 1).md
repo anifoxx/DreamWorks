@@ -1,11 +1,11 @@
 # Shot List: Pilot (Episode 1)
 
-This shot list translates the episode design into specific camera setups. Each shot includes the
-shot number, scene reference, description, lens, movement, lighting, emotional purpose, blocking and
-transition. Lens selection follows guidelines: 50 mm approximates human vision, 35 mm provides a
-wider context but can distort if used for close-ups, and 85 mm compresses backgrounds and flatters
-faces 1 . Lighting adheres to the Visual Bible: warm practical lights for intimacy and cooler tones
-for discomfort 2 .
+This shot list translates the episode design into specific virtual camera setups for the
+DreamWorks-style 3D animated production. Each shot includes the shot number, scene reference,
+description, lens, movement, lighting, emotional purpose, blocking and transition. Lens selection
+follows guidelines: 50 mm approximates human vision, 35 mm provides a wider context but can distort if
+used for close-ups, and 85 mm compresses backgrounds and flatters faces 1 . Lighting adheres to the
+Visual Bible: warm practical lights for intimacy and cooler tones for discomfort 2 .
 
 ## Scene 1 – Balcony (Night)
 
@@ -79,7 +79,7 @@ Shot   Type / Lens                                                              
                                      inward; very     dominate;
                      by side at                                        chemistry; allows    Cut to
                                      slight           city lights
-       Two-shot;     railing.                                          both actors to       close-ups for
+       Two-shot;     railing.                                          both characters to   close-ups for
 4                                    handheld         blurred
        50 mm         They face                                         share frame and      emotional
                                      sway to          bokeh
@@ -89,6 +89,7 @@ Shot   Type / Lens                                                              
                                      breathing.       them.
                      framed
                      waist-up.
+```
 
                      Leo’s face      Static
                      in profile as   close-up

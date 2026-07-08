@@ -2,124 +2,139 @@
 
 ## Purpose and Philosophy
 
-Continuity is essential to keep the audience immersed in the story. Because episodes and scenes are
-shot out of sequence, every visual and narrative element must remain consistent when edited
-together. A script supervisor (continuity supervisor) is responsible for recording every action and
-detail on set; they track wardrobe, props, hair, makeup, blocking and chronology 1 . Their notes are
-shared with hair, make-up, wardrobe, props and art departments so each scene flows logically 1 . The
-supervisor also checks what day it is in the story and what characters are wearing to ensure
-continuity of everything 2 . In this series, continuity will preserve the realism and emotional arc
-described in our show, world and visual bibles.
+Continuity is essential to keep the audience immersed in the story. Because the series is produced as
+DreamWorks-style 3D animation and episodes/shots are generated and assembled out of sequence, every
+visual and narrative element must remain consistent when edited together. A Continuity/Consistency
+Lead is responsible for tracking every asset and detail across generations: character models, rigs,
+textures, props, lighting setups and blocking. Their notes are shared with modelling, lookdev,
+lighting, props and layout so each scene flows logically. The lead also checks what story day it is and
+what characters are wearing to ensure continuity of everything. In this series, continuity will
+preserve the realism and emotional arc described in our show, world and visual bibles, and the visual
+identity locked in the character reference sheets (Визуализации/).
 
-## Responsibilities of the Continuity Supervisor
+## Responsibilities of the Continuity/Consistency Lead
 
-- Prepare a detailed continuity breakdown before shooting begins. Record scene numbers, script days, time of day, locations and character appearances.
+- Prepare a detailed continuity breakdown before generation begins. Record shot numbers, story days,
+  time of day, locations and character appearances.
 
-- On set, record every take, noting actors’ positions, actions and dialogue; log the exact hand used to pick up a prop, movement paths and line changes.
+- For every generated shot/take, log which character reference sheet, model version, wardrobe and prop
+  set was used; note any deviations that need correcting in later passes.
 
-- Take reference photos of each setup (hair, makeup, wardrobe, props, set dressing, lighting).
+- Maintain a reference library (hair, wardrobe, props, set dressing, lighting rigs) built from the
+  character and world bibles and the reference sheets, so every new shot can be checked against it.
 
-- Maintain a continuity log for each department (wardrobe, hair, makeup, props, set design) with updates after every take.
+- Maintain a continuity log for each department (wardrobe/model, hair/groom, props, set/environment)
+  with updates after every generated shot.
 
-- Communicate with the director, DoP, production designer and costume/hair departments to ensure continuity decisions are understood and implemented.
+- Communicate with the writer/director, the AI-generation lead and the art department to ensure
+  continuity decisions are understood and implemented in prompts and post-processing.
 
 ## Continuity Guidelines
 
 ## Character Appearance
 
-- Wardrobe and accessories: Ensure characters wear the correct outfit for each script day. Keep track of clothing combinations, layers (coats on/off), jewellery, watches, glasses and bags. Note how sleeves are rolled and buttons done. Any stains or wrinkles must be reproduced.
+- Wardrobe and accessories: Ensure characters wear the correct outfit for each story day, matching the
+  character reference sheets exactly. Keep track of clothing combinations, layers (coats on/off),
+  jewellery, watches and bags. Any deliberate wear (creases, stains) must be reproduced consistently
+  across shots.
 
-- Hair and makeup: Record hair parting, curls, stray strands, length, up/down styles and facial hair. Track makeup intensity, lipstick colour and placement. Because the series emphasises realism, avoid dramatic changes between shots. The continuity supervisor’s notes allow hair and makeup teams to recreate exact looks 1 .
+- Hair and grooming: Record hair parting, curls, length and styling per the reference sheets. Track
+  make-up intensity and placement for Vanessa. Because the series emphasises realism within a stylized
+  render, avoid unintended drift between generations — the consistency lead's notes let the art team
+  regenerate the exact look each time.
 
-- Physical condition: Note injuries (cuts, bruises), tears, sweat, dirt or smudges and ensure they evolve logically across scenes. For example, if Vanessa has tear-streaked mascara in one shot, it should still be visible in subsequent shots until she removes it on screen.
+- Physical condition: Note injuries (cuts, bruises), tears, smudges and ensure they evolve logically
+  across scenes. For example, if Vanessa has tear-streaked make-up in one shot, it should still be
+  visible in subsequent shots until she visibly removes it on screen.
 
 ## Props and Set Dressing
 
-- Prop placement: Document the exact position and orientation of props in each shot. Use reference photos to reset objects (cups, phones, books, pillows) between takes.
+- Prop placement: Document the exact position and orientation of props in each shot. Use the
+  established reference images to reset objects (cups, phones, books, plants) between generations.
 
-- State of props: Track whether props are full/empty, switched on/off, folded/unfolded. For instance, teacups on the balcony must be consistently full or empty depending on the story beat.
+- State of props: Track whether props are full/empty, switched on/off, folded/unfolded. For instance,
+  the mugs on the balcony must be consistently full or empty depending on the story beat.
 
-- Environment: Record the arrangement of furniture, decorations and plants. Even minor adjustments (e.g., a chair pulled out) must be reproduced. Because this series uses a modern open-plan apartment with sliding panels and custom furniture 3 , consistency is key.
+- Environment: Record the arrangement of furniture, decorations and plants from the World Bible. Even
+  minor adjustments (e.g., a chair pulled out) must be reproduced. Because this series uses a modern
+  open-plan apartment with sliding panels and custom furniture, consistency is key across every
+  generated shot.
 
-## Actor Blocking and Actions
+## Character Blocking and Actions
 
-- Movement and gestures: Note precise blocking—how characters enter and exit, which hand they use to hold a mug, when they sit or stand and any interaction with props. Reproduce gestures and timing in matching shots.
+- Movement and gestures: Note precise blocking — how characters enter and exit, which hand they use to
+  hold a mug, when they sit or stand and any interaction with props. Reproduce gestures and timing in
+  matching shots, aligned with the behavioural notes in the Character Bible.
 
-- Eye lines and posture: Record where the actor looks during conversation and how they hold their body. Eye lines must match between over-the-shoulder and close-up shots to preserve spatial relationships.
+- Eye lines and posture: Record where each character looks during conversation and how they hold their
+  body. Eye lines must match between over-the-shoulder and close-up shots to preserve spatial
+  relationships.
 
-- Interpersonal distance: The physical distance between characters conveys intimacy or conflict. Maintain consistent spacing across angles.
+- Interpersonal distance: The physical distance between characters conveys intimacy or conflict.
+  Maintain consistent spacing across angles.
 
 ## Lighting and Time of Day
 
-- Time continuity: Confirm the script day and time of day for each scene. This series spans evenings and mornings; the supervisor checks that the “morning” scenes maintain consistent brightness and colour temperature across shots. The film independent article emphasises that continuity covers what day it is 2 .
+- Time continuity: Confirm the story day and time of day for each scene. This series spans evenings and
+  mornings; the lead checks that "morning" scenes maintain consistent brightness and colour temperature
+  across shots.
 
-- Lighting style: Use warm, practical lighting for intimate moments and cooler light for moments of tension, following the visual bible. Soft diffused light suggests calm, while hard light conveys tension 4 . Ensure the direction, intensity and colour of light stay consistent within a scene.
+- Lighting style: Use warm, practical-motivated lighting for intimate moments and cooler light for
+  moments of tension, following the Visual Bible. Soft diffused light suggests calm, while hard light
+  conveys tension. Ensure the direction, intensity and colour of light stay consistent within a scene.
 
 ## Camera and Lens
 
-- Lens consistency: Maintain the same focal length for matching angles within a scene. 50 mm approximates the human field of view and provides a versatile look; 35 mm is wider and includes more context but may distort close-ups; 85 mm compresses backgrounds and is ideal for portraits 5 . Once a lens is selected for a particular setup (e.g., close-up on Vanessa), use the same lens for all matching coverage to avoid perspective jumps.
+- Lens consistency: Maintain the same virtual focal length for matching angles within a scene. 50 mm
+  approximates the human field of view and provides a versatile look; 35 mm is wider and includes more
+  context but may distort close-ups; 85 mm compresses backgrounds and is ideal for portraits. Once a
+  virtual lens is selected for a particular setup (e.g., close-up on Vanessa), use the same lens for all
+  matching coverage to avoid perspective jumps.
 
-- Camera movement: When cutting between shots with camera moves, ensure that movement directions (push-in, dolly, handheld) align to avoid disorienting jumps.
+- Camera movement: When cutting between shots with camera moves, ensure that movement directions
+  (push-in, dolly, virtual handheld) align to avoid disorienting jumps.
 
 - Composition: Maintain the established headroom, eyeline level and horizon across matching shots.
 
 ## Sound and Dialogue
 
-- Ambient sound continuity: Note background noises (traffic, appliances, music) and ensure they match across angles.
+- Ambient sound continuity: Note background noises (traffic, appliances, music) and ensure they match
+  across angles.
 
-- Dialogue continuity: Monitor line delivery, timing and pauses so they remain consistent between takes; record any ad-libbed lines for the editor.
+- Dialogue continuity: Monitor line delivery, timing and pauses so they remain consistent between
+  generated takes; record any changed lines for the editor.
 
 ## Emotional and Narrative Continuity
 
-- Character state: Keep track of characters’ emotional status at the start and end of each scene (e.g., Vanessa’s growing unease, Leo’s charm shifting to pressure). Ensure the performance matches the planned emotional arc.
+- Character state: Keep track of characters' emotional status at the start and end of each scene (e.g.,
+  Vanessa's growing unease, Leo's charm shifting to pressure). Ensure the animated performance matches
+  the planned emotional arc and the emotion reference poses on each character sheet.
 
-- Story timeline: The continuity supervisor monitors script days, weather and time jumps. For example, if the balcony scene occurs at night and the kitchen scene the next morning, there should not be an unexplained wardrobe change or inconsistent daylight.
+- Story timeline: The consistency lead monitors story days, weather and time jumps. For example, if the
+  balcony scene occurs at night and the kitchen scene the next morning, there should not be an
+  unexplained wardrobe change or inconsistent daylight.
 
 ## Documentation and Communication
 
-- Continuity reports: Compile daily reports summarising each scene’s continuity requirements. Share these with relevant departments and the editor.
+- Continuity reports: Compile reports summarising each scene's continuity requirements and the
+  reference assets used. Share these with relevant departments and the editor.
 
-- Continuity meetings: Conduct daily briefings with key crew members (director, DoP, production designer, wardrobe, hair, makeup) to review continuity issues and upcoming challenges.
+- Continuity reviews: Conduct regular reviews with key collaborators (writer/director, AI-generation
+  lead, art department) to review continuity issues and upcoming shots.
 
 ## Tools and Practices
 
-- Use a digital continuity tracking app or spreadsheet with fields for scene number, take, script day, time, location, character, wardrobe, hair, props, notes and photos.
+- Use a digital continuity tracking sheet with fields for shot number, take/generation, story day, time,
+  location, character, wardrobe, hair, props, notes and reference images.
 
-- Use high-resolution photos or short video clips to capture every setup from multiple angles. Label these with scene and take numbers.
-
-- Keep a continuity kit on set with markers, tape, cloths, measuring tape and duplicate props to reset scenes quickly.
+- Keep the character reference sheets and prop/set reference images as the single source of truth;
+  every prompt for a new shot should point back to them.
 
 ## Conclusion
 
-The Continuity Bible is the backbone that ensures each episode feels seamless despite being shot out
-of sequence. By meticulously tracking characters’ appearances, props, blocking, lighting, camera and
-emotional states and by coordinating across departments, the continuity supervisor preserves the
-realism and emotional build-up that our series requires 1 . This document will be updated as
-characters, locations and props evolve throughout the season. It must be referenced before every
-shot to avoid continuity errors and maintain the quality standard promised by this production.
-
-## 1
-
-## 2
-
-Script Supervisor Tips, Tricks and Tools for Better Continuity and Careers - Film Independent
-
-https://www.filmindependent.org/blog/script-supervisor-tips-tricks-and-tools-for-better-continuity-and-careers/
-
-## 3
-
-An urban escape: modern interior design in Moscow | Prima Design
-
-https://www.primadesign.it/work/modern-apartment-interior-design-moscow/
-
-## 4
-
-How Lighting Affects Mood in Film - Mack Sennett Studios
-
-https://macksennettstudios.net/how-lighting-affects-mood-in-film/
-
-## 5
-
-35mm, 50mm, 85mm Comparison | Lens Review - shanelongphotography.com
-
-https://shanelongphotography.com/2020/04/27/35mm-50mm-85mm-comparison-lens-review/
+The Continuity Bible is the backbone that ensures each episode feels seamless despite being generated
+out of sequence. By meticulously tracking characters' appearances, props, blocking, lighting, camera
+and emotional states — and by coordinating across departments — the consistency lead preserves the
+realism and emotional build-up that our series requires. This document will be updated as characters,
+locations and props evolve throughout the season. It must be referenced before every generated shot to
+avoid continuity errors and maintain the quality standard promised by this production.
