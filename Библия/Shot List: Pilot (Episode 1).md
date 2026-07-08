@@ -23,10 +23,10 @@ Visual Bible: warm practical lights for intimacy and cooler tones for discomfort
           Establishing                                     ambience
                           night; the      slight pan to                     tone; conveys          Cut to
  1        shot;                                            with warm
-                          balcony is      reveal                            solitude before        shot 2.
+                          balcony is      reveal                            quiet solitude         shot 2.
           35 mm                                            practical
-                          silhouetted     balcony.                          connection.
-                                                           light from a
+                          silhouetted     balcony.                          before Leo joins
+                                                           light from a       her.
                           in
                                                            small
                           foreground.
@@ -75,9 +75,9 @@ Shot   Type / Lens                                                              
                      Leo and
                      Vanessa
                                      Slow dolly       Warm tones
-                     stand side                                        Captures budding
-                                     inward; very     dominate;
-                     by side at                                        chemistry; allows    Cut to
+                     stand side                                        Captures their
+                                     inward; very     dominate;         easy, established
+                     by side at                                        intimacy; allows     Cut to
                                      slight           city lights
        Two-shot;     railing.                                          both characters to   close-ups for
 4                                    handheld         blurred
