@@ -12,29 +12,31 @@ the episodes will look like 2 .
 
 ## Season Arc Summary
 
-The inciting incident of our series occurs when Vanessa, a stylish young woman who has recently
-returned to Moscow after years abroad and is renting an apartment in Moscow’s Hamóvniki district,
-crosses paths with Leo, a charismatic neighbour. Their first conversation on the shared balcony hints
-at a connection that promises to fill the quiet loneliness of her new life in the city. Following
-Final Draft’s advice, the closing moments of the pilot will raise a question that propels the rest of
-the season: is Leo as perfect as he seems? A season arc starts by defining the inciting incident and
-uses the final beat of the pilot to set up a question that drives viewers to continue 3 . Over the
-course of nine short episodes (≈45–60 s each), Vanessa and Leo’s relationship will progress from
-intoxicating romance to subtle manipulation and emotional abuse. The story engine is rooted in
-character arcs—viewers tune in not for case-of-the-week plots but to follow these people as they
-evolve 4 . The season will end when Vanessa realises the extent of Leo’s gaslighting, setting the
-stage for a confrontation in Season Two.
+Vanessa and Leo already live together when our season begins — a stylish young couple sharing a modern
+apartment on the top floor of a new residential building in Moscow’s Hamóvniki district. To the outside
+world, and to Vanessa herself, they look like the perfect couple. The season does not open with a
+meeting; it opens with an intimate night on their shared balcony that feels like everything she’s ever
+wanted, followed the next morning by something almost too small to name — Leo’s first soft, smiling
+criticism over breakfast. Following Final Draft’s advice, the closing moments of the pilot raise a
+question that propels the rest of the season: was that a slip, or the first loose thread in something
+that’s about to unravel? A season arc starts by defining the inciting incident and uses the final beat
+of the pilot to set up a question that drives viewers to continue 3 ; here the inciting incident is not
+a first encounter but the first crack Vanessa allows herself to notice. Over the course of nine short
+episodes (≈45–60 s each), we watch the relationship’s glossy surface give way to subtle manipulation
+and emotional abuse. The story engine is rooted in character arcs—viewers tune in not for
+case-of-the-week plots but to follow these people as they evolve 4 . The season will end when Vanessa
+realises the extent of Leo’s gaslighting, setting the stage for a confrontation in Season Two.
 
 ## Beginning
 
-Episodes 1–2 establish the A-story: Vanessa and Leo’s courtship. We see Leo’s warmth, charm and
-attentiveness; he shares carefully curated stories about his past, making Vanessa feel special.
-Vanessa introduces Leo to her close friend Sonya, and their interactions create hope that she has
-found a supportive partner. At the same time, small red flags appear: Leo dismisses Vanessa’s
-opinions, subtly questions her memory and uses her vulnerability to forge a deeper bond. The pilot
-already includes the inciting incident and its first crack: a balcony meeting at night that flows into
-breakfast the next morning, ending on Leo’s first soft, smiling criticism — raising the question that
-drives the season 3 .
+Episodes 1–2 establish the A-story: the seemingly idyllic domestic life Vanessa and Leo already share.
+We see Leo’s warmth, charm and attentiveness inside their established routine — shared mornings,
+curated stories about his past that keep drawing Vanessa closer. Vanessa’s close friend Sonya gives us
+a window into her life outside the relationship. At the same time, small red flags appear: Leo
+dismisses Vanessa’s opinions, subtly questions her memory and uses her vulnerability to tighten the
+bond. The pilot itself contains the first crack: an intimate balcony night that flows into breakfast
+the next morning, ending on Leo’s first soft, smiling criticism — raising the question that drives the
+season 3 .
 
 ## Middle
 
@@ -101,7 +103,7 @@ whether he can develop insight, but for Season One he remains a villain.
 A season Bible should include summaries for each episode rather than scene-by-scene detail is a
 high-level outline 2 . Here:
 
-1. Pilot – “Balcony & Breakfast”: Vanessa meets Leo on the shared balcony at night; their chemistry is instant, and he shares a quietly vulnerable story that makes her feel let in. The next morning he cooks her breakfast — warm and attentive, until he softly, smilingly criticises her for being “ungrateful.” Ending beat: two cups on the table, one still full, one already empty — the first hint of imbalance 3 .
+1. Pilot – “Balcony & Breakfast”: Vanessa steps out alone onto the balcony of the apartment she shares with Leo at night; he joins her with two cups of tea, and their closeness is instant — he speaks softly about a past “sacrifice,” and she listens caught between hope and doubt. The next morning he cooks her breakfast — warm and attentive, until he softly, smilingly criticises her for being “ungrateful.” Ending beat: two cups on the table, one still full, one already empty — the first hint of imbalance 3 .
 
 2. “Gifts”: Leo showers Vanessa with presents and attention. He tells a tragic story from his past. Vanessa introduces him to her best friend, Sonya, who feels a flicker of unease at how quickly he’s moved in.
 
