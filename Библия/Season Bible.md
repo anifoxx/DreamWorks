@@ -12,49 +12,48 @@ the episodes will look like 2 .
 
 ## Season Arc Summary
 
-The inciting incident of our series occurs when Vanessa, a stylish young mother living in a new
-modern apartment in Moscow’s Hamóvniki district, crosses paths with Leo, a charismatic neighbour.
-Their first conversation on the shared balcony hints at a connection that promises to fill the
-loneliness she feels after her divorce. Following Final Draft’s advice, the closing moments of the
-pilot will raise a question that propels the rest of the season: is Leo as perfect as he seems? A
-season arc starts by defining the inciting incident and uses the final beat of the pilot to set up a
-question that drives viewers to continue 3 . Over the course of ten short episodes (≈45–60 s each),
-Vanessa and Leo’s relationship will progress from intoxicating romance to subtle manipulation and
-emotional abuse. The story engine is rooted in character arcs—viewers tune in not for
-case-of-the-week plots but to follow these people as they evolve 4 . The season will end when
-Vanessa realises the extent of Leo’s gaslighting, setting the stage for a confrontation in Season
-Two.
+The inciting incident of our series occurs when Vanessa, a stylish young woman who has recently
+returned to Moscow after years abroad and is renting an apartment in Moscow’s Hamóvniki district,
+crosses paths with Leo, a charismatic neighbour. Their first conversation on the shared balcony hints
+at a connection that promises to fill the quiet loneliness of her new life in the city. Following
+Final Draft’s advice, the closing moments of the pilot will raise a question that propels the rest of
+the season: is Leo as perfect as he seems? A season arc starts by defining the inciting incident and
+uses the final beat of the pilot to set up a question that drives viewers to continue 3 . Over the
+course of nine short episodes (≈45–60 s each), Vanessa and Leo’s relationship will progress from
+intoxicating romance to subtle manipulation and emotional abuse. The story engine is rooted in
+character arcs—viewers tune in not for case-of-the-week plots but to follow these people as they
+evolve 4 . The season will end when Vanessa realises the extent of Leo’s gaslighting, setting the
+stage for a confrontation in Season Two.
 
 ## Beginning
 
-Episodes 1–3 establish the A-story: Vanessa and Leo’s courtship. We see Leo’s warmth, charm and
+Episodes 1–2 establish the A-story: Vanessa and Leo’s courtship. We see Leo’s warmth, charm and
 attentiveness; he shares carefully curated stories about his past, making Vanessa feel special.
-Vanessa introduces Leo to her child (from a previous marriage), and their interactions create hope
-that she has found a supportive partner. At the same time, small red flags appear: Leo dismisses
-Vanessa’s opinions, subtly questions her memory and uses her vulnerability to forge a deeper bond.
-These early episodes include the inciting incident and end with a balcony scene where Leo murmurs,
-“remember how much I love you,” raising the question that drives the season 3 .
+Vanessa introduces Leo to her close friend Sonya, and their interactions create hope that she has
+found a supportive partner. At the same time, small red flags appear: Leo dismisses Vanessa’s
+opinions, subtly questions her memory and uses her vulnerability to forge a deeper bond. The pilot
+already includes the inciting incident and its first crack: a balcony meeting at night that flows into
+breakfast the next morning, ending on Leo’s first soft, smiling criticism — raising the question that
+drives the season 3 .
 
 ## Middle
 
-Episodes 4–7 form the middle of the season. Leo’s behaviour shifts: he alternates love-bombing with
+Episodes 3–6 form the middle of the season. Leo’s behaviour shifts: he alternates love-bombing with
 criticism, isolates Vanessa from friends and occasionally hints that she is “ungrateful.” Vanessa’s
 emotional state fluctuates as she grapples with internal conflict—her borderline personality traits
 make her fear abandonment and react strongly to perceived slights 5 . Concurrently, the B-story
-explores Vanessa’s relationship with her ex-husband and co-parenting challenges; this storyline runs
-separately but connects through the theme of trust 6 . The C-story follows a neighbour (perhaps a
-concerned
-
-friend) who notices Leo’s duplicity and starts collecting evidence, adding tension and an external
-perspective. In this middle section we reveal key plot points at planned intervals. Final Draft
-emphasises that not everything should be saved for the finale; pacing revelations through the season
-builds momentum 7 . Episode 5 might show Leo flipping from tenderness to coldness after Vanessa
-questions him. Episode 6 introduces a flashback hinting at Leo’s previous relationships, while
-Episode 7 reveals a secret about Vanessa’s past that Leo uses against her.
+follows Vanessa’s friendship with Sonya straining under Leo’s influence; this storyline runs
+separately but connects through the theme of trust 6 . The C-story follows a neighbour who notices
+Leo’s duplicity and starts collecting evidence, adding tension and an external perspective. In this
+middle section we reveal key plot points at planned intervals. Final Draft emphasises that not
+everything should be saved for the finale; pacing revelations through the season builds momentum 7 .
+Episode 4 might show Leo flipping from tenderness to coldness after Vanessa questions him. Episode 5
+introduces a flashback hinting at Leo’s previous relationships, while Episode 6 reveals a secret about
+Vanessa’s past that Leo uses against her.
 
 ## End
 
-Episodes 8–10 build to the climax and resolution. Vanessa starts to notice patterns; she confides in
+Episodes 7–9 build to the climax and resolution. Vanessa starts to notice patterns; she confides in
 the neighbour and begins to document Leo’s contradictions. As tension mounts, Leo’s manipulations
 become more overt—he threatens to leave and blames Vanessa for the problems. The final episode
 culminates in a confrontation where Leo twists the narrative using DARVO (Deny, Attack, Reverse
@@ -67,7 +66,7 @@ Storylines (A, B, C)
 
 - A-Story – Vanessa & Leo Relationship. The primary plot follows their romance and gradual descent into narcissistic abuse. It is structured around the four core types of character arcs: change positively, change negatively, remain steadfast positively or remain steadfast negatively 9 . Vanessa undergoes a positive change arc—initially believing she is unlovable and must accept what she’s given, she gradually learns to value her own perceptions and boundaries. Leo follows a negative steadfast arc: he remains committed to manipulation and control, revealing his true nature as the story intensifies. Because character arcs stem from the story rather than being imposed on it 10 , each escalation in external conflict (gaslighting incidents, isolation tactics) forces the characters’ internal journeys.
 
-- B-Story – Vanessa’s Co-parenting and Ex-Husband. This secondary storyline explores Vanessa’s responsibilities as a mother and her interactions with her ex. These episodes highlight how co-parenting agreements strain under Leo’s influence and show Vanessa’s struggle to separate her identity from romantic relationships. B-story scenes provide contrast and relief while illustrating Vanessa’s vulnerability and resilience.
+- B-Story – Vanessa & Sonya (Friendship Under Pressure). This secondary storyline follows Vanessa’s closest friend, Sonya, who is warm and grounded, and watches her friend gradually pull away as Leo tightens his hold. These episodes highlight how Leo’s isolation tactics erode Vanessa’s support system and show her struggle to separate her identity from the relationship. B-story scenes provide contrast and relief while illustrating Vanessa’s vulnerability and resilience.
 
 - C-Story – Neighbour’s Investigation. A perceptive neighbour (perhaps an older woman or a young journalist) suspects Leo isn’t who he pretends to be. She spots inconsistencies, cross-checks his stories and gathers evidence. This storyline introduces elements of mystery and provides a voice of reason for the audience. It also allows plot threads (e.g., previous partners, hidden criminal activity) to surface gradually.
 
@@ -77,12 +76,10 @@ Storylines (A, B, C)
 
 Vanessa begins with low self-worth and a desire to feel loved. Her borderline personality traits
 mean she fears abandonment and may experience intense emotional swings 5 . At first she relies on
-Leo’s
-
-validation, ignoring red flags. Each external conflict pushes her to question Leo’s narrative and
-trust her own perceptions. By Episode 10 she recognises the abuse and asserts boundaries, initiating
-a positive internal change. However, the season leaves her still entangled emotionally—there is room
-for further growth next season.
+Leo’s validation, ignoring red flags. Each external conflict pushes her to question Leo’s narrative
+and trust her own perceptions. By Episode 9 she recognises the abuse and asserts boundaries,
+initiating a positive internal change. However, the season leaves her still entangled emotionally—
+there is room for further growth next season.
 
 ## Leo
 
@@ -95,38 +92,32 @@ whether he can develop insight, but for Season One he remains a villain.
 
 ## Supporting Characters
 
-- Ex-Husband (Andrei): A grounded presence who cares for their child. He starts as antagonistic but gradually becomes an ally when he sees Leo’s influence. His arc moves from indifference to protective concern.
+- Best Friend (Sonya): A grounded, warm presence from Vanessa’s life before Leo. She starts as delighted for her friend but grows increasingly concerned, is gradually pushed out by Leo’s isolation tactics, and becomes an ally again once Vanessa starts to see the pattern. Her arc moves from warmth, to being sidelined, to protective concern.
 
 - Neighbour/Investigator (Lena): Begins as curious; becomes increasingly alarmed. Her arc runs from passive observer to active whistle-blower, risking her safety to help Vanessa.
 
 ## Episode Summaries
 
 A season Bible should include summaries for each episode rather than scene-by-scene detail is a
-high-level outline:
+high-level outline 2 . Here:
 
-## 2
+1. Pilot – “Balcony & Breakfast”: Vanessa meets Leo on the shared balcony at night; their chemistry is instant, and he shares a quietly vulnerable story that makes her feel let in. The next morning he cooks her breakfast — warm and attentive, until he softly, smilingly criticises her for being “ungrateful.” Ending beat: two cups on the table, one still full, one already empty — the first hint of imbalance 3 .
 
-## . Here
+2. “Gifts”: Leo showers Vanessa with presents and attention. He tells a tragic story from his past. Vanessa introduces him to her best friend, Sonya, who feels a flicker of unease at how quickly he’s moved in.
 
-1. Pilot – “Balcony”: Vanessa meets Leo on the shared balcony. Their chemistry is instant. He flatters her and offers support. She reveals she is a mother. Ending beat: Leo whispers “trust me,” raising the core question 3 .
+3. “Critique”: Leo’s criticism sharpens. He belittles Vanessa’s career in a soft voice. She apologises. The neighbour overhears an argument and senses something off.
 
-2. “Breakfast”: Morning after, Leo makes breakfast, then criticises how she likes her coffee. He invites her to his apartment. The neighbour watches from afar.
+4. “Isolation”: Leo begins isolating Vanessa: he suggests cutting off Sonya or skipping plans with her. He uses jealousy or guilt. Vanessa’s mood swings intensify 5 .
 
-3. “Gifts”: Leo showers Vanessa with presents and attention. He tells a tragic story from his past. Vanessa introduces him to her child. Her ex expresses concern about her new boyfriend.
+5. “Past”: A flashback reveals Leo’s previous partner and hints at a pattern. The neighbour collects a photograph or document. Vanessa confides in Sonya, who is then discouraged by Leo.
 
-4. “Critique”: Leo’s first overt criticism. He belittles Vanessa’s career or parenting in a soft voice. She apologises. The neighbour overhears an argument and senses something off.
+6. “Gaslight”: Leo denies things he said or did, causing Vanessa to doubt her memory. He uses DARVO when confronted. Sonya warns her again, creating tension.
 
-5. “Isolation”: Leo begins isolating Vanessa: he suggests cutting off a friend or skipping a co-parenting meeting. He uses jealousy or guilt. Vanessa’s mood swings intensify 5 .
+7. “Evidence”: The neighbour shares evidence with Vanessa. She is torn but starts to keep her own record. Leo senses her distance and intensifies the love bombing.
 
-6. “Past”: A flashback reveals Leo’s previous partner and hints at a pattern. The neighbour collects a photograph or document. Vanessa confides in a friend, who is then discouraged by Leo.
+8. “Confrontation”: Vanessa raises a concern; Leo turns it back on her, accusing her of being ungrateful or unstable. He threatens to leave with dramatic flair. Vanessa temporarily concedes.
 
-7. “Gaslight”: Leo denies things he said or did, causing Vanessa to doubt her memory. He uses DARVO when confronted. Vanessa’s ex warns her again, creating tension.
-
-8. “Evidence”: The neighbour shares evidence with Vanessa. She is torn but starts to keep her own record. Leo senses her distance and intensifies the love bombing.
-
-9. “Confrontation”: Vanessa raises a concern; Leo turns it back on her, accusing her of being ungrateful or unstable. He threatens to leave with dramatic flair. Vanessa temporarily concedes.
-
-10. Finale – “No More”: Vanessa secretly listens to a call or reads a message that proves Leo’s deceit. She confronts him; he uses DARVO but she recognises the pattern. She closes the door on him. Final shot: Leo’s calm face hints he isn’t finished. The last beat raises questions for Season Two, aligning with the suggestion that your closing pilot moment drives the rest of the series 3 .
+9. Finale – “No More”: Vanessa secretly listens to a call or reads a message that proves Leo’s deceit. She confronts him; he uses DARVO but she recognises the pattern. She closes the door on him. Final shot: Leo’s calm face hints he isn’t finished. The last beat raises questions for Season Two, aligning with the suggestion that your closing pilot moment drives the rest of the series 3 .
 
 ## Themes and Questions
 
@@ -139,19 +130,18 @@ theme from the outset helps keep choices focused 11 .
 
 The tone remains realist and intimate. Episodes are rendered in DreamWorks-style 3D animation with a
 virtual handheld, naturalistic camera feel and maintain the warm–cool colour script outlined in the
-Visual Bible. Humour is minimal; tension builds
-gradually with occasional relief in B-story scenes. Because the series is a psychological drama, the
-stakes are emotional rather than physical—consistent with the guidance that your season should
-reflect the genre and tone of your show 12 .
+Visual Bible. Humour is minimal; tension builds gradually with occasional relief in B-story scenes.
+Because the series is a psychological drama, the stakes are emotional rather than physical—consistent
+with the guidance that your season should reflect the genre and tone of your show 12 .
 
 ## End-of-Season Resolution and Set-up
 
 The season resolves the question of whether Leo is manipulative—yes, he is. Vanessa has taken the
 first step toward independence, but her journey is incomplete. The final episode hints at new
-questions: What secrets remain in Leo’s past? How will Vanessa rebuild her life? What will be the
-fallout in her co-parenting relationship? According to Stage 32, you should end the season with the
-strongest material and avoid saving the best stories for later 13 . Our Season One finale gives
-viewers a resolution and invites them back for Season Two.
+questions: What secrets remain in Leo’s past? How will Vanessa rebuild her life? Will she repair her
+friendship with Sonya? According to Stage 32, you should end the season with the strongest material
+and avoid saving the best stories for later 13 . Our Season One finale gives viewers a resolution and
+invites them back for Season Two.
 
 ## Conclusion
 
