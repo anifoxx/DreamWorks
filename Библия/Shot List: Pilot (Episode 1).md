@@ -5,7 +5,8 @@ DreamWorks-style 3D animated production. Each shot includes the shot number, sce
 description, lens, movement, lighting, emotional purpose, blocking and transition. Lens selection
 follows guidelines: 50 mm approximates human vision, 35 mm provides a wider context but can distort if
 used for close-ups, and 85 mm compresses backgrounds and flatters faces 1 . Lighting adheres to the
-Visual Bible: warm practical lights for intimacy and cooler tones for discomfort 2 .
+Visual Bible: warm practical lights for intimacy and cooler tones for discomfort 2 . Full line-by-line
+dialogue for each shot lives in «Dialogue: Pilot (Episode 1).md».
 
 ## Scene 1 – Balcony (Night)
 
