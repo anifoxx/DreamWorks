@@ -28,6 +28,28 @@ Visual Bible.
   chibi/comedic proportions, avoid exaggerated slapstick expressions, avoid plastic/waxy skin, avoid
   unrealistic lighting.
 
+## Режим ввода в Kling: только первый кадр vs первый + последний
+
+**По умолчанию каждый шот подаётся в Kling с одним стартовым кадром** (обычный image-to-video) — этого
+достаточно, когда камера почти статична и мизансцена не меняется (крупные планы, лёгкий push-in/дольше
+на месте).
+
+**Но там, где за время шота меняется положение персонажей в кадре** (кто-то входит, кто-то передаёт
+предмет, камера открывает новую часть пространства), одного стартового кадра недостаточно — модель
+может «додумать» финальную мизансцену как угодно (именно так Лео с кружками пришёл не к той/не туда).
+Для таких шотов нужно подавать **и первый, и последний кадр** (Kling интерполирует движение между
+ними), чтобы результат гарантированно приходил в нужную точку.
+
+| Шот | Режим | Почему |
+|---|---|---|
+| 1, 2, 4, 5, 6, 9, 10, 11, 12, 15 | только первый кадр | камера статична/лёгкий push-in, мизансцена не меняется |
+| **3** | **первый + последний** | Лео идёт от двери к Ванессе и передаёт кружку — без опорного финального кадра передача «плывёт» |
+| **7** | **первый + последний** | смена света ночь→рассвет должна прийти к конкретному целевому состоянию, а не к произвольному |
+| **8** | **первый + последний** | отъезд от кружек к раскрытой кухне — финальная композиция (Лео и Ванесса в кадре) должна быть зафиксирована |
+| **14** | **первый + последний** | Ванесса переводит взгляд вниз — нужен опорный кадр именно этого положения головы/взгляда |
+
+Промпты для последнего кадра — там же, где стартовые, отмечены отдельно внутри каждого такого шота.
+
 ## Shot-by-Shot Prompts
 
 ## Shot 1 – Establishing Shot (Balcony)
@@ -89,6 +111,10 @@ Visual Bible.
 
 - Negative prompt: "No smirking/villain caricature, no exaggerated swagger, no plastic/waxy skin, no
   futuristic clothing, no photoreal rendering."
+
+- **Kling input: первый + последний кадр.** Последний кадр = стартовый кадр шота 4 (двухкадр, оба уже
+  держат свою кружку, тёплый свет, город в боке) — так финал шота 3 гарантированно совпадает с началом
+  шота 4, без произвольной мизансцены.
 
 - Kling 3.0 Standard prompt: "Animate Leo entering from the apartment doorway into the balcony space, DreamWorks-style
   3D animation. The camera (virtual steadicam) follows him in a smooth arc towards Vanessa. As he reaches
@@ -190,6 +216,14 @@ Visual Bible.
 - Negative prompt: "No human figures, no messy table, no neon colours, no photoreal rendering, no wide
   establishing framing — stay tight on the cups."
 
+- **Kling input: первый + последний кадр.** Смена света ночь→рассвет — процесс, у которого обязательно
+  должна быть конкретная целевая точка, а не открытый «раствор в никуда».
+
+- GPT Image prompt (последний кадр): "Close overhead view of the same two white ceramic mugs on the same
+  balcony table, DreamWorks-style 3D animated render, identical composition and cup positions to the
+  first frame. Soft dawn light now replaces the night lighting — cool blue shadows give way to warm
+  amber morning light. The candle has burned down slightly. No characters in frame. 35 mm virtual lens."
+
 - Kling 3.0 Standard prompt: "Begin with the reference image of the cups at night, DreamWorks-style 3D animation. Hold
   for 2 s, then slowly dissolve as the surrounding light shifts from night-blue through dawn amber to
   soft cool morning daylight — the camera never leaves this close framing on the cups. The liquid in
@@ -214,6 +248,10 @@ Visual Bible.
 
 - Negative prompt: "No people, no clutter, no harsh shadows, no trendy neon, no photoreal rendering, no
   dialogue/caption text."
+
+- **Kling input: первый + последний кадр.** Отъезд от кружек до раскрытой кухни — крупная смена
+  композиции; без опорного финального кадра камера может «доехать» не туда и Лео с Ванессой окажутся в
+  случайных позах. Последний кадр = стартовый кадр шота 9 (двухкадр, они уже стоят и разговаривают).
 
 - Kling 3.0 Standard prompt: "Start on the same close-up of the cups where shot 7 left off, now in full morning light,
   DreamWorks-style 3D animation. Over 4–5 s, slowly pull back / crane out to reveal the modern open-plan
@@ -355,12 +393,20 @@ Visual Bible.
 
 ## Shot 14 – Close-up on Vanessa, Looking Away (Kitchen, no dialogue)
 
-- GPT Image prompt: "Close-up of Vanessa, DreamWorks-style 3D animated character, holding a steady gaze
-  for a beat before looking down and away. Calm, unresolved expression — neither defiant nor defeated.
-  Matches her character reference sheet exactly. 85 mm virtual lens, shallow depth of field, cinematic
-  3D animated lighting."
+- GPT Image prompt: "Close-up of Vanessa, DreamWorks-style 3D animated character, holding a steady,
+  level gaze straight ahead. Calm, unresolved expression — neither defiant nor defeated. Matches her
+  character reference sheet exactly. 85 mm virtual lens, shallow depth of field, cinematic 3D animated
+  lighting."
 
 - Negative prompt: "No tears, no smiling, no triumphant expression, no photoreal rendering."
+
+- **Kling input: первый + последний кадр.** Уход взгляда вниз — конкретное направленное движение головы;
+  без опорного финального кадра наклон может не случиться или уйти не в ту сторону.
+
+- GPT Image prompt (последний кадр): "Same close-up of Vanessa, identical framing and lighting, but her
+  head is now tilted down and her gaze has dropped away from camera — calm, unresolved expression,
+  neither defiant nor defeated. Matches her character reference sheet exactly. 85 mm virtual lens,
+  shallow depth of field, cinematic 3D animated lighting."
 
 - Kling 3.0 Standard prompt: "Hold on Vanessa for 3 s, DreamWorks-style 3D animation, no dialogue. She holds his gaze,
   then slightly tilts her head down and looks away. Camera static with a slight tilt down following her
