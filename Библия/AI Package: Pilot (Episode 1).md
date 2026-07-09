@@ -504,9 +504,11 @@ the Russian line in Dialogue: Pilot (Episode 1).md. This still needs a resolved 
 production. Working plan (not yet finalized):
 
 1. Generate the silent/generic-talking Kling clip per shot as described above.
-2. Generate the Russian voice line via TTS in a consistent voice per character (voice choice — preset
-   vs. cloned — still TBD; whichever is picked should be documented in Character Bible alongside each
-   character's other consistency markers, e.g. colour palette).
+2. Generate the Russian voice line via TTS — **voice choice now locked** (see Character Bible → «Голос»
+   for each character): Leo = preset «Caspian», Vanessa = preset «Sienna», both via `text2speech_v2`
+   / variant `minimax` (chosen after comparing seed_audio, elevenlabs, minimax, seed_speech, vibe_voice,
+   cozy_voice on psychologically representative lines — seed_audio had an unusable accent on Russian
+   text; minimax read as the best fit for both characters).
 3. Run a dubbing/lip-sync pass (e.g. the `dubbing` tool, target_language=rus) over the silent clip with
    the real line to re-sync the mouth. Unverified whether this works on a clip with no original audio
    track — test on a single shot before committing to the full episode.
