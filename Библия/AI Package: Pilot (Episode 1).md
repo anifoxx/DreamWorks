@@ -408,3 +408,18 @@ Visual Bible.
 
 - Rendering notes remind the compositing team of the desired DreamWorks-style 3D look (no film grain,
   no photoreal skin) and aspect ratio (9:16 vertical for social media).
+
+## Open Issue: Lip Sync
+
+Kling 3.0 Standard does not lip-sync mouth movement to the actual dialogue text — a shot generated from
+a prompt like "he speaks softly" produces generic talking motion, not phoneme-accurate lip movement for
+the Russian line in Dialogue: Pilot (Episode 1).md. This still needs a resolved pipeline before final
+production. Working plan (not yet finalized):
+
+1. Generate the silent/generic-talking Kling clip per shot as described above.
+2. Generate the Russian voice line via TTS in a consistent voice per character (voice choice — preset
+   vs. cloned — still TBD; whichever is picked should be documented in Character Bible alongside each
+   character's other consistency markers, e.g. colour palette).
+3. Run a dubbing/lip-sync pass (e.g. the `dubbing` tool, target_language=rus) over the silent clip with
+   the real line to re-sync the mouth. Unverified whether this works on a clip with no original audio
+   track — test on a single shot before committing to the full episode.
