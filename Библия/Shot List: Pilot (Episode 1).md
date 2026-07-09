@@ -65,9 +65,12 @@ dialogue for each shot lives in «Dialogue: Pilot (Episode 1).md».
                                           include both     candlelight      physical proximity.
                           Vanessa,
                                           characters       flickers.
-                          offering a
+                          and hands her
                                           in frame.
-                          cup.
+                          a mug — a
+                          completed,
+                          visible
+                          handoff.
 
                      Description     Camera /         Lighting &       Emotion &
 Shot   Type / Lens                                                                          Transition

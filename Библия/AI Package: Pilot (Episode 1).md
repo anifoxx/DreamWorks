@@ -91,15 +91,21 @@ Visual Bible.
   futuristic clothing, no photoreal rendering."
 
 - Kling 3.0 Standard prompt: "Animate Leo entering from the apartment doorway into the balcony space, DreamWorks-style
-  3D animation. The camera (virtual steadicam) follows him in a smooth arc towards Vanessa. Use a 50 mm
-  virtual lens with shallow depth of field; keep the candle flicker and city backdrop. Duration 5 s."
+  3D animation. The camera (virtual steadicam) follows him in a smooth arc towards Vanessa. As he reaches
+  her, he extends one of the two mugs toward her with his hand and she reaches out and takes it into her
+  own hand — a clear, deliberate physical handoff, both hands visible at the moment of exchange. Leo keeps
+  the second mug in his other hand. The handoff completes near the end of the shot. Use a 50 mm virtual
+  lens with shallow depth of field; keep the candle flicker and city backdrop. Duration 5 s."
 
-- Continuation: Leads into shot 4 where Leo stands beside Vanessa.
+- Continuation: Leads into shot 4 where Leo stands beside Vanessa, each already holding their own mug
+  following the handoff completed in this shot.
 
-- Motion notes: Smooth steadicam; slight parallax as camera arcs around the balcony table.
+- Motion notes: Smooth steadicam; slight parallax as camera arcs around the balcony table. The mug
+  handoff should read as an unhurried, natural gesture, not a quick or fumbled motion.
 
-- Continuity checklist: Both mugs should be identical; Leo's hair neat; clothing matches Character
-  Bible and reference sheet; city view matches previous shots.
+- Continuity checklist: Both mugs should be identical; the handoff must be visibly completed by the end
+  of the shot (mug physically passes from Leo's hand to Vanessa's, not swapped between frames); Leo's
+  hair neat; clothing matches Character Bible and reference sheet; city view matches previous shots.
 
 - Rendering notes: Balanced exposure; warm tones on faces; cool bokeh in background.
 
