@@ -28,6 +28,12 @@ Visual Bible.
   chibi/comedic proportions, avoid exaggerated slapstick expressions, avoid plastic/waxy skin, avoid
   unrealistic lighting.
 
+- Жесты и язык тела: во все промпты с персонажами вплетены фирменные жесты из Character Bible (у Лео —
+  медленное моргание как «забота», контроль пространства лёгкими касаниями, руки в карманах/за спиной,
+  наклон головы при доминировании; у Ванессы — касание кольца/волос при тревоге, руки близко к телу,
+  отсутствие этих жестов как сознательный акцент в переломные моменты). Это не отдельный слой — жесты
+  прописаны прямо внутри Kling-промптов ниже.
+
 ## Режим ввода в Kling: только первый кадр vs первый + последний
 
 **По умолчанию каждый шот подаётся в Kling с одним стартовым кадром** (обычный image-to-video) — этого
@@ -89,12 +95,14 @@ Visual Bible.
 
 - Kling 3.0 Standard prompt: "Begin with the reference image of Vanessa gazing at the city, DreamWorks-style 3D
   animation. Use a virtual handheld push-in towards her over 4 seconds, capturing the subtle movement
-  of her hair in the night breeze. Maintain 50 mm virtual lens and shallow depth of field; candle and
-  city lights should flicker naturally."
+  of her hair in the night breeze. Her hands hold the blanket close around her shoulders; her fingers
+  occasionally touch the ring on her hand — a small, unconscious nervous habit. Maintain 50 mm virtual
+  lens and shallow depth of field; candle and city lights should flicker naturally."
 
 - Continuation: Seamlessly cut to shot 3 as Leo enters. Vanessa maintains position and gaze.
 
-- Motion notes: Handheld sway mimics breathing. Ensure push-in speed is constant.
+- Motion notes: Handheld sway mimics breathing. Ensure push-in speed is constant. Ring-touch gesture is
+  small and unhurried — a habit, not a performed action (per Character Bible).
 
 - Continuity checklist: Vanessa's hair down and coat draped correctly; candle remains lit; city lights
   consistent with Shot 1; design matches her reference sheet (pendant, hair, eye colour).
@@ -120,14 +128,18 @@ Visual Bible.
   3D animation. The camera (virtual steadicam) follows him in a smooth arc towards Vanessa. As he reaches
   her, he extends one of the two mugs toward her with his hand and she reaches out and takes it into her
   own hand — a clear, deliberate physical handoff, both hands visible at the moment of exchange. Leo keeps
-  the second mug in his other hand. The handoff completes near the end of the shot. Use a 50 mm virtual
-  lens with shallow depth of field; keep the candle flicker and city backdrop. Duration 5 s."
+  the second mug in his other hand. Right after the handoff, his free hand rests briefly on the railing
+  beside her or lightly at her shoulder — his familiar, quiet way of controlling shared space. The handoff
+  completes near the end of the shot. Use a 50 mm virtual lens with shallow depth of field; keep the
+  candle flicker and city backdrop. Duration 5 s."
 
 - Continuation: Leads into shot 4 where Leo stands beside Vanessa, each already holding their own mug
   following the handoff completed in this shot.
 
 - Motion notes: Smooth steadicam; slight parallax as camera arcs around the balcony table. The mug
-  handoff should read as an unhurried, natural gesture, not a quick or fumbled motion.
+  handoff should read as an unhurried, natural gesture, not a quick or fumbled motion. His touch after
+  the handoff is light and brief, not proprietary or heavy (per Character Bible: controls space through
+  small touches, not obvious gestures).
 
 - Continuity checklist: Both mugs should be identical; the handoff must be visibly completed by the end
   of the shot (mug physically passes from Leo's hand to Vanessa's, not swapped between frames); Leo's
@@ -147,12 +159,15 @@ Visual Bible.
 
 - Kling 3.0 Standard prompt: "Start from the reference image of both characters on the balcony, DreamWorks-style 3D
   animation. Perform a slow dolly inwards for 4 s while the characters take small sips and exchange
-  glances. Keep a 50 mm virtual lens; handheld breathing motion. Warm tones should dominate the
-  foreground with cool bokeh in the background."
+  glances. Leo stands with easy, upright confidence, one hand loosely in his pocket; Vanessa holds her
+  mug with both hands, close to her body. Keep a 50 mm virtual lens; handheld breathing motion. Warm
+  tones should dominate the foreground with cool bokeh in the background."
 
 - Continuation: Cuts to close-ups (shots 5–6) to emphasise dialogue and emotion.
 
-- Motion notes: Dolly speed slow; maintain equal distance to both characters.
+- Motion notes: Dolly speed slow; maintain equal distance to both characters. Posture contrast is
+  deliberate — his open, confident stance versus her more contained, self-holding one (per Character
+  Bible body-language notes).
 
 - Continuity checklist: Both mugs remain nearly full; candle stays on table; hair, wardrobe consistent
   with reference sheets; skyline unchanged.
@@ -171,12 +186,14 @@ Visual Bible.
   photorealistic skin pores."
 
 - Kling 3.0 Standard prompt: "Hold the close-up of Leo delivering his heartfelt speech for 5 s, DreamWorks-style 3D
-  animation. The camera remains static with micro-jitters to emulate handheld. Maintain an 85 mm
-  virtual lens; ensure the light source flickers subtly on his face."
+  animation. He blinks slowly and deliberately as he speaks — his familiar 'caring listener' mannerism.
+  The camera remains static with micro-jitters to emulate handheld. Maintain an 85 mm virtual lens;
+  ensure the light source flickers subtly on his face."
 
 - Continuation: After his line, cut to shot 6 for Vanessa's reaction.
 
-- Motion notes: Micro-jitters only; no rack focus.
+- Motion notes: Micro-jitters only; no rack focus. The slow blink should read as warm, not sleepy or
+  theatrical — per Character Bible, it's what makes him seem like a "caring" listener.
 
 - Continuity checklist: Leo's stubble/hair as per Character Bible and reference sheet; consistent
   background bokeh; candle light warm.
@@ -193,13 +210,15 @@ Visual Bible.
 - Negative prompt: "No tears, no smiling, no cinematic bloom, no lens distortion, no photoreal
   rendering."
 
-- Kling 3.0 Standard prompt: "Hold the close-up of Vanessa reacting for 5 s, DreamWorks-style 3D animation. The camera
-  is static with subtle handheld sway. Maintain 85 mm virtual lens and shallow depth of field. Her eyes
-  flicker as she processes Leo's words."
+- Kling 3.0 Standard prompt: "Hold the close-up of Vanessa reacting for 5 s, DreamWorks-style 3D animation. Her eyes
+  flicker as she processes Leo's words, and her fingers may drift toward her ring or a strand of hair —
+  her habitual small gesture when uncertain. The camera is static with subtle handheld sway. Maintain
+  85 mm virtual lens and shallow depth of field."
 
 - Continuation: Crossfade to shot 7 (insert of cups) as conversation ends.
 
-- Motion notes: Slight breathing movement; ensure eyes stay in focus.
+- Motion notes: Slight breathing movement; ensure eyes stay in focus. Hand-to-ring/hair gesture is
+  brief and unconscious, not a lingering fidget.
 
 - Continuity checklist: Hair parting consistent with reference sheet; jewellery (pendant) visible;
   candlelight flicker.
@@ -281,14 +300,17 @@ Visual Bible.
   visible anger or raised voices in body language, no photoreal rendering."
 
 - Kling 3.0 Standard prompt: "Animate the two characters already in conversation, DreamWorks-style 3D animation. Leo
-  delivers his line calmly, almost warmly; Vanessa opens her mouth to respond and is gently cut off.
-  Camera is static at eye level with a barely perceptible push-in as the exchange lands. Maintain a
-  50 mm virtual lens. Duration 6 s."
+  delivers his line calmly, almost warmly, hands resting in his pockets or loosely clasped behind his
+  back, head tilted slightly toward her — his familiar posture when steering a conversation. Vanessa's
+  hand lifts slightly as she begins to respond, then stills as she is gently cut off. Camera is static
+  at eye level with a barely perceptible push-in as the exchange lands. Maintain a 50 mm virtual lens.
+  Duration 6 s."
 
 - Continuation: Cut to shot 10 on Vanessa as she answers.
 
 - Motion notes: Push-in must stay almost invisible — the visual tone should not telegraph conflict; the
-  words should carry all of the tension.
+  words should carry all of the tension. Leo's posture reads as relaxed control, not aggression (per
+  Character Bible); Vanessa's stalled hand gesture is small, not a visible protest.
 
 - Continuity checklist: No cooking/food props in frame; wardrobe and hair match reference sheets; the
   two cups from shots 7–8 are visible somewhere in the kitchen background, untouched.
@@ -307,12 +329,14 @@ Visual Bible.
   photoreal rendering."
 
 - Kling 3.0 Standard prompt: "Hold the close-up of Vanessa delivering her line for 4 s, DreamWorks-style 3D animation.
-  Camera static, shallow depth of field. Her delivery is quiet and plain, not a complaint — the first
-  time in the episode she names her feelings directly."
+  Unlike her usual habit, her hands stay still and she doesn't touch her ring or hair here — for once she
+  holds herself steady while she speaks. Camera static, shallow depth of field. Her delivery is quiet and
+  plain, not a complaint — the first time in the episode she names her feelings directly."
 
 - Continuation: Cut to shot 11 on Leo's response.
 
-- Motion notes: Minimal movement; hold on her eyes.
+- Motion notes: Minimal movement; hold on her eyes. The absence of her usual nervous fidget is
+  deliberate — it marks this line as unusually direct for her (per Character Bible).
 
 - Continuity checklist: Hair, pendant and wardrobe match reference sheet; expression reads as quiet
   hurt, not anger or tears.
@@ -330,12 +354,15 @@ Visual Bible.
   photoreal rendering."
 
 - Kling 3.0 Standard prompt: "Hold the close-up of Leo delivering his reframe for 5–6 s, DreamWorks-style 3D
-  animation, including a brief pause before his last line. Camera static, shallow depth of field.
-  Delivery should read as loving and reasonable, not cruel — the manipulation is entirely in the words."
+  animation, including a brief pause before his last line. The same slow, deliberate blink from shot 5
+  returns here, with a faint head tilt — his familiar 'caring' mannerism, now doing quieter work. Camera
+  static, shallow depth of field. Delivery should read as loving and reasonable, not cruel — the
+  manipulation is entirely in the words."
 
 - Continuation: Cut to shot 12 on Vanessa's question.
 
-- Motion notes: Minimal movement; hold through the pause without cutting away.
+- Motion notes: Minimal movement; hold through the pause without cutting away. The blink/head-tilt
+  callback to shot 5 should be recognisable, not exaggerated.
 
 - Continuity checklist: Leo's hair/stubble as per Character Bible and reference sheet; expression stays
   warm and controlled throughout, never hardens.
@@ -354,12 +381,14 @@ Visual Bible.
   photoreal rendering."
 
 - Kling 3.0 Standard prompt: "Hold the close-up of Vanessa asking her question for 3–4 s, DreamWorks-style 3D
-  animation. Camera static with slight rack focus to keep her eyes sharp. Delivery is calm and sincere,
+  animation. Her hands and shoulders stay still and unclenched — no fidgeting, no touching her ring or
+  hair. Camera static with slight rack focus to keep her eyes sharp. Delivery is calm and sincere,
   almost tender — not a challenge."
 
 - Continuation: Cut to shot 13 on Leo's reaction.
 
-- Motion notes: Slight rack focus only; no other movement.
+- Motion notes: Slight rack focus only; no other movement. The stillness is the point — this is the
+  one moment she isn't managing her own anxiety while she speaks.
 
 - Continuity checklist: Hair, pendant, wardrobe consistent with reference sheet; expression reads as
   sincere, not smug or triumphant.
@@ -377,13 +406,16 @@ Visual Bible.
   missable, no photoreal rendering."
 
 - Kling 3.0 Standard prompt: "Hold on Leo's face for 3 s, DreamWorks-style 3D animation, no dialogue. Animate a
-  micro-expression: a barely perceptible widening of the eyes or falter in his usual calm, held for a
-  beat, then smoothed back over as he regains his composure. Camera static, held slightly longer than a
-  normal reaction shot."
+  micro-expression: a barely perceptible widening of the eyes or falter in his usual calm, his jaw
+  tightening almost imperceptibly and the corners of his mouth flattening for an instant, held for a
+  beat, then he consciously smooths his face back into composure. Camera static, held slightly longer
+  than a normal reaction shot."
 
 - Continuation: Cut to shot 14 on Vanessa looking away.
 
-- Motion notes: The entire shot is the micro-expression; no camera movement.
+- Motion notes: The entire shot is the micro-expression; no camera movement. Jaw/mouth tightening is
+  the same tell described in Character Bible for when his composure is threatened — here it must stay
+  barely visible, not read as open anger.
 
 - Continuity checklist: This is the first shot in the whole episode where Leo's face shows something he
   didn't choose to show — keep it subtle enough that it rewards a close rewatch rather than announcing
@@ -409,12 +441,15 @@ Visual Bible.
   shallow depth of field, cinematic 3D animated lighting."
 
 - Kling 3.0 Standard prompt: "Hold on Vanessa for 3 s, DreamWorks-style 3D animation, no dialogue. She holds his gaze,
-  then slightly tilts her head down and looks away. Camera static with a slight tilt down following her
-  gaze."
+  then slightly tilts her head down and looks away. Her shoulders don't straighten the way they do when
+  she's happy — they stay slightly low as she looks away, a quiet, deflated stillness rather than a
+  dramatic gesture. Camera static with a slight tilt down following her gaze."
 
 - Continuation: Cut to shot 15, the closing cups insert.
 
-- Motion notes: Slight tilt down only, timed to her gaze shift.
+- Motion notes: Slight tilt down only, timed to her gaze shift. Shoulder posture is the quiet tell here
+  — per Character Bible, straightened shoulders read as happy for her, so keeping them low signals the
+  opposite without any theatrical gesture.
 
 - Continuity checklist: Hair, pendant, wardrobe consistent with reference sheet; expression reads as
   quietly unresolved, not as a clear win or loss for either character.
