@@ -2,7 +2,7 @@
 
 This AI Package provides prompts and notes for generating the keyframes and video shots described in
 the Shot List. For each shot we define a GPT Image prompt (to create a still frame reference), a
-negative prompt (to guide the model away from undesired elements), a Veo prompt (to animate the shot
+negative prompt (to guide the model away from undesired elements), a Kling 3.0 Standard prompt (to animate the shot
 from the reference), continuation notes for linking shots, motion instructions, a continuity
 checklist and rendering notes. Prompts focus on the DreamWorks-style 3D animated look established in
 the character reference sheets (Визуализации/), consistent character appearance and adherence to the
@@ -40,7 +40,7 @@ Visual Bible.
 - Negative prompt: "No photorealism, no live-action look, no cartoonish/chibi proportions, no HDR
   over-glow, no futuristic skyscrapers, no people in frame, no flat toon shading."
 
-- Veo prompt: "Start with the still frame of the wide balcony at night, DreamWorks-style 3D animation.
+- Kling 3.0 Standard prompt: "Start with the still frame of the wide balcony at night, DreamWorks-style 3D animation.
   Hold for a moment, then slowly pan right to reveal more of the skyline. Maintain a 35 mm virtual lens
   perspective and keep the candle flicker and city lights. Duration 4 s."
 
@@ -65,7 +65,7 @@ Visual Bible.
 - Negative prompt: "No photorealistic skin, no exaggerated comedic poses, no heavy stylised makeup
   beyond her reference sheet, no futuristic outfits, no flat studio lighting."
 
-- Veo prompt: "Begin with the reference image of Vanessa gazing at the city, DreamWorks-style 3D
+- Kling 3.0 Standard prompt: "Begin with the reference image of Vanessa gazing at the city, DreamWorks-style 3D
   animation. Use a virtual handheld push-in towards her over 4 seconds, capturing the subtle movement
   of her hair in the night breeze. Maintain 50 mm virtual lens and shallow depth of field; candle and
   city lights should flicker naturally."
@@ -90,7 +90,7 @@ Visual Bible.
 - Negative prompt: "No smirking/villain caricature, no exaggerated swagger, no plastic/waxy skin, no
   futuristic clothing, no photoreal rendering."
 
-- Veo prompt: "Animate Leo entering from the apartment doorway into the balcony space, DreamWorks-style
+- Kling 3.0 Standard prompt: "Animate Leo entering from the apartment doorway into the balcony space, DreamWorks-style
   3D animation. The camera (virtual steadicam) follows him in a smooth arc towards Vanessa. Use a 50 mm
   virtual lens with shallow depth of field; keep the candle flicker and city backdrop. Duration 5 s."
 
@@ -113,7 +113,7 @@ Visual Bible.
 - Negative prompt: "No dramatic backlighting, no glamorous fashion beyond reference sheets, no visible
   rig/skeleton artifacts, no lens flares, no photoreal skin."
 
-- Veo prompt: "Start from the reference image of both characters on the balcony, DreamWorks-style 3D
+- Kling 3.0 Standard prompt: "Start from the reference image of both characters on the balcony, DreamWorks-style 3D
   animation. Perform a slow dolly inwards for 4 s while the characters take small sips and exchange
   glances. Keep a 50 mm virtual lens; handheld breathing motion. Warm tones should dominate the
   foreground with cool bokeh in the background."
@@ -138,7 +138,7 @@ Visual Bible.
 - Negative prompt: "No harsh shadows, no over-sharpening, no unnatural eye reflections, no
   photorealistic skin pores."
 
-- Veo prompt: "Hold the close-up of Leo delivering his heartfelt speech for 5 s, DreamWorks-style 3D
+- Kling 3.0 Standard prompt: "Hold the close-up of Leo delivering his heartfelt speech for 5 s, DreamWorks-style 3D
   animation. The camera remains static with micro-jitters to emulate handheld. Maintain an 85 mm
   virtual lens; ensure the light source flickers subtly on his face."
 
@@ -161,7 +161,7 @@ Visual Bible.
 - Negative prompt: "No tears, no smiling, no cinematic bloom, no lens distortion, no photoreal
   rendering."
 
-- Veo prompt: "Hold the close-up of Vanessa reacting for 5 s, DreamWorks-style 3D animation. The camera
+- Kling 3.0 Standard prompt: "Hold the close-up of Vanessa reacting for 5 s, DreamWorks-style 3D animation. The camera
   is static with subtle handheld sway. Maintain 85 mm virtual lens and shallow depth of field. Her eyes
   flicker as she processes Leo's words."
 
@@ -184,7 +184,7 @@ Visual Bible.
 - Negative prompt: "No human figures, no messy table, no neon colours, no photoreal rendering, no wide
   establishing framing — stay tight on the cups."
 
-- Veo prompt: "Begin with the reference image of the cups at night, DreamWorks-style 3D animation. Hold
+- Kling 3.0 Standard prompt: "Begin with the reference image of the cups at night, DreamWorks-style 3D animation. Hold
   for 2 s, then slowly dissolve as the surrounding light shifts from night-blue through dawn amber to
   soft cool morning daylight — the camera never leaves this close framing on the cups. The liquid in
   the cups is unchanged. Maintain 35 mm virtual lens and static camera throughout. Duration 5 s."
@@ -209,7 +209,7 @@ Visual Bible.
 - Negative prompt: "No people, no clutter, no harsh shadows, no trendy neon, no photoreal rendering, no
   dialogue/caption text."
 
-- Veo prompt: "Start on the same close-up of the cups where shot 7 left off, now in full morning light,
+- Kling 3.0 Standard prompt: "Start on the same close-up of the cups where shot 7 left off, now in full morning light,
   DreamWorks-style 3D animation. Over 4–5 s, slowly pull back / crane out to reveal the modern open-plan
   kitchen around them — floor-to-ceiling windows, sleek cabinets, marble island. Maintain a 35 mm
   virtual lens throughout the pull-back; no hard cut to a wide shot."
@@ -236,7 +236,7 @@ Visual Bible.
 - Negative prompt: "No cooking utensils in use, no plates of food, no exaggerated expressions, no
   visible anger or raised voices in body language, no photoreal rendering."
 
-- Veo prompt: "Animate the two characters already in conversation, DreamWorks-style 3D animation. Leo
+- Kling 3.0 Standard prompt: "Animate the two characters already in conversation, DreamWorks-style 3D animation. Leo
   delivers his line calmly, almost warmly; Vanessa opens her mouth to respond and is gently cut off.
   Camera is static at eye level with a barely perceptible push-in as the exchange lands. Maintain a
   50 mm virtual lens. Duration 6 s."
@@ -262,7 +262,7 @@ Visual Bible.
 - Negative prompt: "No tears, no raised eyebrows of anger, no exaggerated hurt expression, no
   photoreal rendering."
 
-- Veo prompt: "Hold the close-up of Vanessa delivering her line for 4 s, DreamWorks-style 3D animation.
+- Kling 3.0 Standard prompt: "Hold the close-up of Vanessa delivering her line for 4 s, DreamWorks-style 3D animation.
   Camera static, shallow depth of field. Her delivery is quiet and plain, not a complaint — the first
   time in the episode she names her feelings directly."
 
@@ -285,7 +285,7 @@ Visual Bible.
 - Negative prompt: "No smirking/villain caricature, no visible anger, no exaggerated warmth, no
   photoreal rendering."
 
-- Veo prompt: "Hold the close-up of Leo delivering his reframe for 5–6 s, DreamWorks-style 3D
+- Kling 3.0 Standard prompt: "Hold the close-up of Leo delivering his reframe for 5–6 s, DreamWorks-style 3D
   animation, including a brief pause before his last line. Camera static, shallow depth of field.
   Delivery should read as loving and reasonable, not cruel — the manipulation is entirely in the words."
 
@@ -309,7 +309,7 @@ Visual Bible.
 - Negative prompt: "No smirk, no confrontational expression, no raised eyebrow of challenge, no
   photoreal rendering."
 
-- Veo prompt: "Hold the close-up of Vanessa asking her question for 3–4 s, DreamWorks-style 3D
+- Kling 3.0 Standard prompt: "Hold the close-up of Vanessa asking her question for 3–4 s, DreamWorks-style 3D
   animation. Camera static with slight rack focus to keep her eyes sharp. Delivery is calm and sincere,
   almost tender — not a challenge."
 
@@ -332,7 +332,7 @@ Visual Bible.
 - Negative prompt: "No overt shock, no wide eyes, no mouth agape — the reaction must be subtle, almost
   missable, no photoreal rendering."
 
-- Veo prompt: "Hold on Leo's face for 3 s, DreamWorks-style 3D animation, no dialogue. Animate a
+- Kling 3.0 Standard prompt: "Hold on Leo's face for 3 s, DreamWorks-style 3D animation, no dialogue. Animate a
   micro-expression: a barely perceptible widening of the eyes or falter in his usual calm, held for a
   beat, then smoothed back over as he regains his composure. Camera static, held slightly longer than a
   normal reaction shot."
@@ -356,7 +356,7 @@ Visual Bible.
 
 - Negative prompt: "No tears, no smiling, no triumphant expression, no photoreal rendering."
 
-- Veo prompt: "Hold on Vanessa for 3 s, DreamWorks-style 3D animation, no dialogue. She holds his gaze,
+- Kling 3.0 Standard prompt: "Hold on Vanessa for 3 s, DreamWorks-style 3D animation, no dialogue. She holds his gaze,
   then slightly tilts her head down and looks away. Camera static with a slight tilt down following her
   gaze."
 
@@ -378,7 +378,7 @@ Visual Bible.
 
 - Negative prompt: "No human figures, no messy table, no dramatic lighting, no photoreal rendering."
 
-- Veo prompt: "Static overhead shot of the two cups, DreamWorks-style 3D animation, held for 3–4 s, then
+- Kling 3.0 Standard prompt: "Static overhead shot of the two cups, DreamWorks-style 3D animation, held for 3–4 s, then
   a slow fade to black to end the episode. Maintain 35 mm virtual lens throughout."
 
 - Continuation: End of episode — fade out.
@@ -395,12 +395,12 @@ Visual Bible.
 
 - All GPT Image prompts should be used to generate high-resolution keyframes that capture the
   composition, lighting, mood and DreamWorks-style 3D render of each shot. These images become the
-  reference for the Veo animations, and must match the character reference sheets in Визуализации/.
+  reference for the Kling 3.0 Standard animations, and must match the character reference sheets in Визуализации/.
 
 - Negative prompts explicitly exclude photorealism/live-action rendering and comedic/chibi
   proportions to keep the tone consistent with a mature, cinematic animated drama.
 
-- Veo prompts should describe movement, virtual lens, duration and mood succinctly. Use "start from the
+- Kling 3.0 Standard prompts should describe movement, virtual lens, duration and mood succinctly. Use "start from the
   reference image" as a baseline.
 
 - Continuity checklists should be consulted by the person responsible for visual consistency before and
