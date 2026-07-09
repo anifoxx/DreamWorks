@@ -2,11 +2,22 @@
 
 This AI Package provides prompts and notes for generating the keyframes and video shots described in
 the Shot List. For each shot we define a GPT Image prompt (to create a still frame reference), a
-negative prompt (to guide the model away from undesired elements), a Kling 3.0 Standard prompt (to animate the shot
-from the reference), continuation notes for linking shots, motion instructions, a continuity
+negative prompt (to guide the model away from undesired elements), an animation prompt (to animate the
+shot from the reference), continuation notes for linking shots, motion instructions, a continuity
 checklist and rendering notes. Prompts focus on the DreamWorks-style 3D animated look established in
 the character reference sheets (Визуализации/), consistent character appearance and adherence to the
 Visual Bible.
+
+**Две модели анимации, в зависимости от того, есть ли в шоте реплика:**
+
+- **Wan 2.7** (`start_image` + опционально `end_image` + `audio_references`) — для всех шотов, где
+  персонаж говорит на камеру. Модель синхронизирует движение рта под реальную озвученную реплику
+  (TTS локальными голосами — см. Character Bible → «Голос»), а не под текстовое описание «he speaks
+  softly», как раньше. Проверено на шоте 3: рот двигается в такт озвучке; звук нужно приложить/свести
+  отдельно (см. «Open Issue: Lip Sync» ниже про found-баг с длительностью). Дешевле Seedance 2.0 (9
+  кредитов против 27 на тех же параметрах) и не «плывёт» фон между стартовым и финишным кадром.
+- **Kling 3.0 Standard** — для шотов без произносимой на камеру реплики (establishing, инсерты,
+  безмолвные реакции). Здесь синхронизация рта не нужна вовсе.
 
 ## Conventions
 
@@ -32,29 +43,36 @@ Visual Bible.
   медленное моргание как «забота», контроль пространства лёгкими касаниями, руки в карманах/за спиной,
   наклон головы при доминировании; у Ванессы — касание кольца/волос при тревоге, руки близко к телу,
   отсутствие этих жестов как сознательный акцент в переломные моменты). Это не отдельный слой — жесты
-  прописаны прямо внутри Kling-промптов ниже.
+  прописаны прямо внутри промптов (Wan 2.7 и Kling 3.0 Standard) ниже.
 
-## Режим ввода в Kling: только первый кадр vs первый + последний
+## Модель и режим ввода по шотам
 
-**По умолчанию каждый шот подаётся в Kling с одним стартовым кадром** (обычный image-to-video) — этого
-достаточно, когда камера почти статична и мизансцена не меняется (крупные планы, лёгкий push-in/дольше
-на месте).
+| Шот | Модель | Кадры | Почему |
+|---|---|---|---|
+| 1 | Kling 3.0 Standard | первый | establishing, без реплик |
+| 2 | Kling 3.0 Standard | первый | Ванесса одна, без реплик |
+| **3** | **Wan 2.7** | **первый + последний** | Лео говорит на камеру + передаёт кружку — нужны и аудио-синхронизация, и опорный финальный кадр, чтобы передача не «плыла» |
+| **4** | **Wan 2.7** | первый | двухкадр, реплики обоих персонажей подряд — см. предупреждение про мультиспикерные шоты ниже |
+| **5** | **Wan 2.7** | первый | крупный план Лео, один говорящий в кадре — чистый случай для аудио-липсинка |
+| **6** | **Wan 2.7** | первый | крупный план Ванессы; реплика Лео звучит закадрово, пока камера держит её — см. предупреждение ниже |
+| 7 | Kling 3.0 Standard | первый + последний | инсерт кружек, смена света ночь→рассвет, без реплик |
+| 8 | Kling 3.0 Standard | первый + последний | отъезд камеры к кухне, без реплик в этом шоте |
+| **9** | **Wan 2.7** | первый | двухкадр, реплики обоих персонажей подряд — мультиспикерный шот, см. предупреждение ниже |
+| **10** | **Wan 2.7** | первый | крупный план Ванессы, один говорящий в кадре |
+| **11** | **Wan 2.7** | первый | крупный план Лео, один говорящий в кадре |
+| **12** | **Wan 2.7** | первый | крупный план Ванессы, один говорящий в кадре |
+| 13 | Kling 3.0 Standard | первый | реакция Лео без реплики |
+| **14** | Kling 3.0 Standard | **первый + последний** | реакция Ванессы без реплики, нужен опорный кадр взгляда вниз |
+| 15 | Kling 3.0 Standard | первый | финальный инсерт, без реплик |
 
-**Но там, где за время шота меняется положение персонажей в кадре** (кто-то входит, кто-то передаёт
-предмет, камера открывает новую часть пространства), одного стартового кадра недостаточно — модель
-может «додумать» финальную мизансцену как угодно (именно так Лео с кружками пришёл не к той/не туда).
-Для таких шотов нужно подавать **и первый, и последний кадр** (Kling интерполирует движение между
-ними), чтобы результат гарантированно приходил в нужную точку.
-
-| Шот | Режим | Почему |
-|---|---|---|
-| 1, 2, 4, 5, 6, 9, 10, 11, 12, 15 | только первый кадр | камера статична/лёгкий push-in, мизансцена не меняется |
-| **3** | **первый + последний** | Лео идёт от двери к Ванессе и передаёт кружку — без опорного финального кадра передача «плывёт» |
-| **7** | **первый + последний** | смена света ночь→рассвет должна прийти к конкретному целевому состоянию, а не к произвольному |
-| **8** | **первый + последний** | отъезд от кружек к раскрытой кухне — финальная композиция (Лео и Ванесса в кадре) должна быть зафиксирована |
-| **14** | **первый + последний** | Ванесса переводит взгляд вниз — нужен опорный кадр именно этого положения головы/взгляда |
-
-Промпты для последнего кадра — там же, где стартовые, отмечены отдельно внутри каждого такого шота.
+**Мультиспикерные шоты (4, 9) и закадровая реплика в шоте 6 — открытый риск.** У Wan 2.7 один слот
+`audio_references` на весь клип, а в этих шотах в кадре либо говорят оба персонажа по очереди (4, 9),
+либо в кадре один человек, а звучит реплика другого (6). Обычная TTS-дорожка со всеми репликами подряд
+заставит модель синхронизировать рот того, кто в кадре, под чужие слова тоже. Способ обхода, пока не
+протестирован отдельно: в промпте явно прописано, чья реплика звучит в какой момент и что лицо в кадре
+должно молчать/слушать во время чужих слов — сама модель должна за это зацепиться по смыслу промпта,
+но это не гарантия фонемной точности. Для 5, 10, 11, 12 (и в основном 3) риска нет — один говорящий,
+одна аудиодорожка.
 
 ## Shot-by-Shot Prompts
 
@@ -120,18 +138,26 @@ Visual Bible.
 - Negative prompt: "No smirking/villain caricature, no exaggerated swagger, no plastic/waxy skin, no
   futuristic clothing, no photoreal rendering."
 
-- **Kling input: первый + последний кадр.** Последний кадр = стартовый кадр шота 4 (двухкадр, оба уже
-  держат свою кружку, тёплый свет, город в боке) — так финал шота 3 гарантированно совпадает с началом
-  шота 4, без произвольной мизансцены.
+- **Wan 2.7 input: первый + последний кадр + audio_references.** Последний кадр = стартовый кадр шота 4
+  (двухкадр, оба уже держат свою кружку, тёплый свет, город в боке) — так финал шота 3 гарантированно
+  совпадает с началом шота 4, без произвольной мизансцены.
 
-- Kling 3.0 Standard prompt: "Animate Leo entering from the apartment doorway into the balcony space, DreamWorks-style
-  3D animation. The camera (virtual steadicam) follows him in a smooth arc towards Vanessa. As he reaches
-  her, he extends one of the two mugs toward her with his hand and she reaches out and takes it into her
-  own hand — a clear, deliberate physical handoff, both hands visible at the moment of exchange. Leo keeps
-  the second mug in his other hand. Right after the handoff, his free hand rests briefly on the railing
-  beside her or lightly at her shoulder — his familiar, quiet way of controlling shared space. The handoff
-  completes near the end of the shot. Use a 50 mm virtual lens with shallow depth of field; keep the
-  candle flicker and city backdrop. Duration 5 s."
+- Audio (TTS): реплика Лео — «Замёрзла? Я по тишине понял, что ты здесь. Ты всегда затихаешь, когда
+  думаешь.» Сгенерировано через `generate_audio`, model `text2speech_v2`, variant `minimax`, voice_id
+  `ef70cc83-3015-4bad-9359-0ea968c43ec0` (пресет «Caspian»). **Важно:** `duration` в `generate_video`
+  должен быть ≥ фактической длины TTS-файла, округлённой вверх (в тесте 6.22 с аудио при duration=6
+  обрезало конец фразы и дало рассинхрон — используйте 7 с).
+
+- Wan 2.7 prompt: "Leo enters from the apartment doorway onto the balcony at night, DreamWorks-style 3D
+  animation. He says: 'Cold? I could tell by the quiet that you were out here. You always go quiet when
+  you're thinking.' The camera (virtual steadicam) follows him in a smooth arc towards Vanessa as he
+  speaks. As he reaches her, he extends one of the two mugs toward her with his hand and she reaches out
+  and takes it into her own hand — a clear, deliberate physical handoff, both hands visible at the moment
+  of exchange. Leo keeps the second mug in his other hand. Right after the handoff, his free hand rests
+  briefly on the railing beside her or lightly at her shoulder — his familiar, quiet way of controlling
+  shared space. The handoff completes near the end of the shot, after his line finishes. His mouth
+  movement follows the provided audio track exactly. Use a 50 mm virtual lens with shallow depth of
+  field; keep the candle flicker and city backdrop. Duration 7 s."
 
 - Continuation: Leads into shot 4 where Leo stands beside Vanessa, each already holding their own mug
   following the handoff completed in this shot.
@@ -157,11 +183,22 @@ Visual Bible.
 - Negative prompt: "No dramatic backlighting, no glamorous fashion beyond reference sheets, no visible
   rig/skeleton artifacts, no lens flares, no photoreal skin."
 
-- Kling 3.0 Standard prompt: "Start from the reference image of both characters on the balcony, DreamWorks-style 3D
+- **Wan 2.7 input: первый кадр + audio_references.** Мультиспикерный шот — см. предупреждение в разделе
+  «Модель и режим ввода по шотам».
+
+- Audio (TTS, две реплики подряд одним файлом или двумя склеенными клипами): Ванесса — «Я не знала, что
+  это слышно.» (voice_id `41023a48-71ab-478a-bea7-c7b5a78f6b36`, пресет «Sienna»); Лео — «Мне — слышно.
+  Я слышу тебя, даже когда ты молчишь.» (voice_id `ef70cc83-3015-4bad-9359-0ea968c43ec0`, пресет
+  «Caspian»). `duration` в `generate_video` ≥ суммарной длины обеих реплик, округлённой вверх.
+
+- Wan 2.7 prompt: "Start from the reference image of both characters on the balcony, DreamWorks-style 3D
   animation. Perform a slow dolly inwards for 4 s while the characters take small sips and exchange
-  glances. Leo stands with easy, upright confidence, one hand loosely in his pocket; Vanessa holds her
-  mug with both hands, close to her body. Keep a 50 mm virtual lens; handheld breathing motion. Warm
-  tones should dominate the foreground with cool bokeh in the background."
+  glances. Vanessa speaks first, quietly: 'I didn't know that was audible.' Her mouth moves only during
+  her own line; she stays still and listening the rest of the time. Leo then answers, warmly: 'I hear
+  it. I hear you even when you're silent.' His mouth moves only during his own line. Leo stands with
+  easy, upright confidence, one hand loosely in his pocket; Vanessa holds her mug with both hands, close
+  to her body. Keep a 50 mm virtual lens; handheld breathing motion. Warm tones should dominate the
+  foreground with cool bokeh in the background."
 
 - Continuation: Cuts to close-ups (shots 5–6) to emphasise dialogue and emotion.
 
@@ -185,10 +222,17 @@ Visual Bible.
 - Negative prompt: "No harsh shadows, no over-sharpening, no unnatural eye reflections, no
   photorealistic skin pores."
 
-- Kling 3.0 Standard prompt: "Hold the close-up of Leo delivering his heartfelt speech for 5 s, DreamWorks-style 3D
-  animation. He blinks slowly and deliberately as he speaks — his familiar 'caring listener' mannerism.
-  The camera remains static with micro-jitters to emulate handheld. Maintain an 85 mm virtual lens;
-  ensure the light source flickers subtly on his face."
+- **Wan 2.7 input: первый кадр + audio_references.** Один говорящий в кадре — чистый случай.
+
+- Audio (TTS): реплика Лео — «Помнишь, как мы только познакомились? Я тогда сразу понял — вот она, моя
+  муза.» voice_id `ef70cc83-3015-4bad-9359-0ea968c43ec0` (пресет «Caspian»), model `text2speech_v2`,
+  variant `minimax`. `duration` ≥ длины TTS-файла, округлённой вверх.
+
+- Wan 2.7 prompt: "Hold the close-up of Leo delivering his line, DreamWorks-style 3D animation. He says:
+  'Do you remember when we first met? I knew right away — there she is, my muse.' His mouth movement
+  follows the provided audio track exactly. He blinks slowly and deliberately as he speaks — his
+  familiar 'caring listener' mannerism. The camera remains static with micro-jitters to emulate
+  handheld. Maintain an 85 mm virtual lens; ensure the light source flickers subtly on his face."
 
 - Continuation: After his line, cut to shot 6 for Vanessa's reaction.
 
@@ -210,10 +254,21 @@ Visual Bible.
 - Negative prompt: "No tears, no smiling, no cinematic bloom, no lens distortion, no photoreal
   rendering."
 
-- Kling 3.0 Standard prompt: "Hold the close-up of Vanessa reacting for 5 s, DreamWorks-style 3D animation. Her eyes
-  flicker as she processes Leo's words, and her fingers may drift toward her ring or a strand of hair —
-  her habitual small gesture when uncertain. The camera is static with subtle handheld sway. Maintain
-  85 mm virtual lens and shallow depth of field."
+- **Wan 2.7 input: первый кадр + audio_references.** Мультиспикерный случай: в кадре Ванесса, но звучит
+  и её, и закадровая реплика Лео — см. предупреждение в разделе «Модель и режим ввода по шотам».
+
+- Audio (TTS, три реплики подряд): Ванесса — «Правда?» (voice_id `41023a48-71ab-478a-bea7-c7b5a78f6b36`,
+  «Sienna»); Лео (закадрово) — «Правда. Без тебя я просто хорошо одетый человек. С тобой — я чувствую,
+  что живу.» (voice_id `ef70cc83-3015-4bad-9359-0ea968c43ec0`, «Caspian»); Ванесса — «...Хорошо.»
+  («Sienna»). `duration` ≥ суммарной длины трёх реплик, округлённой вверх.
+
+- Wan 2.7 prompt: "Hold the close-up of Vanessa reacting, DreamWorks-style 3D animation. She asks
+  softly: 'Really?' — her mouth moves only during this line. Leo's voice answers off-screen: 'Really.
+  Without you I'm just a well-dressed man. With you, I feel alive.' — during his line her face stays
+  still and listening, her mouth does not move, only her eyes react. Then she says quietly: '...Okay.' —
+  her mouth moves again only for this final line. Her eyes flicker as she processes his words, and her
+  fingers may drift toward her ring or a strand of hair — her habitual small gesture when uncertain. The
+  camera is static with subtle handheld sway. Maintain 85 mm virtual lens and shallow depth of field."
 
 - Continuation: Crossfade to shot 7 (insert of cups) as conversation ends.
 
@@ -299,12 +354,23 @@ Visual Bible.
 - Negative prompt: "No cooking utensils in use, no plates of food, no exaggerated expressions, no
   visible anger or raised voices in body language, no photoreal rendering."
 
-- Kling 3.0 Standard prompt: "Animate the two characters already in conversation, DreamWorks-style 3D animation. Leo
-  delivers his line calmly, almost warmly, hands resting in his pockets or loosely clasped behind his
-  back, head tilted slightly toward her — his familiar posture when steering a conversation. Vanessa's
-  hand lifts slightly as she begins to respond, then stills as she is gently cut off. Camera is static
-  at eye level with a barely perceptible push-in as the exchange lands. Maintain a 50 mm virtual lens.
-  Duration 6 s."
+- **Wan 2.7 input: первый кадр + audio_references.** Мультиспикерный шот — см. предупреждение в разделе
+  «Модель и режим ввода по шотам».
+
+- Audio (TTS, три реплики подряд): Лео — «Знаешь, сколько людей были бы счастливы на твоём месте?»
+  («Caspian»); Ванесса — «Я счастлива. Просто вчера...» (обрывается, «Sienna»); Лео (перебивает) — «Я же
+  не жалуюсь, когда прихожу домой уставшим. Не превращаю это в трагедию.» («Caspian»). `duration` ≥
+  суммарной длины трёх реплик, округлённой вверх.
+
+- Wan 2.7 prompt: "Animate the two characters already in conversation, DreamWorks-style 3D animation.
+  Leo speaks first, calmly and almost warmly: 'Do you know how many people would be happy to be in your
+  place?' — his mouth moves only during his line, hands resting in his pockets or loosely clasped behind
+  his back, head tilted slightly toward her — his familiar posture when steering a conversation. Vanessa
+  begins to answer, her hand lifting slightly, her mouth moving only for her words: 'I am happy. It's
+  just, yesterday...' — she is cut off mid-sentence, her hand stills. Leo interrupts gently, his mouth
+  moving again for his line: 'I don't complain when I come home tired. I don't turn it into a tragedy.'
+  Camera is static at eye level with a barely perceptible push-in as the exchange lands. Maintain a
+  50 mm virtual lens."
 
 - Continuation: Cut to shot 10 on Vanessa as she answers.
 
@@ -328,10 +394,17 @@ Visual Bible.
 - Negative prompt: "No tears, no raised eyebrows of anger, no exaggerated hurt expression, no
   photoreal rendering."
 
-- Kling 3.0 Standard prompt: "Hold the close-up of Vanessa delivering her line for 4 s, DreamWorks-style 3D animation.
-  Unlike her usual habit, her hands stay still and she doesn't touch her ring or hair here — for once she
-  holds herself steady while she speaks. Camera static, shallow depth of field. Her delivery is quiet and
-  plain, not a complaint — the first time in the episode she names her feelings directly."
+- **Wan 2.7 input: первый кадр + audio_references.** Один говорящий в кадре — чистый случай.
+
+- Audio (TTS): реплика Ванессы — «Я не устраивала трагедию. Мне правда было больно.» voice_id
+  `41023a48-71ab-478a-bea7-c7b5a78f6b36` (пресет «Sienna»), model `text2speech_v2`, variant `minimax`.
+  `duration` ≥ длины TTS-файла, округлённой вверх.
+
+- Wan 2.7 prompt: "Hold the close-up of Vanessa delivering her line, DreamWorks-style 3D animation. She
+  says: 'I wasn't making a scene. It really hurt.' Her mouth movement follows the provided audio track
+  exactly. Unlike her usual habit, her hands stay still and she doesn't touch her ring or hair here — for
+  once she holds herself steady while she speaks. Camera static, shallow depth of field. Her delivery is
+  quiet and plain, not a complaint — the first time in the episode she names her feelings directly."
 
 - Continuation: Cut to shot 11 on Leo's response.
 
@@ -353,10 +426,18 @@ Visual Bible.
 - Negative prompt: "No smirking/villain caricature, no visible anger, no exaggerated warmth, no
   photoreal rendering."
 
-- Kling 3.0 Standard prompt: "Hold the close-up of Leo delivering his reframe for 5–6 s, DreamWorks-style 3D
-  animation, including a brief pause before his last line. The same slow, deliberate blink from shot 5
-  returns here, with a faint head tilt — his familiar 'caring' mannerism, now doing quieter work. Camera
-  static, shallow depth of field. Delivery should read as loving and reasonable, not cruel — the
+- **Wan 2.7 input: первый кадр + audio_references.** Один говорящий в кадре — чистый случай.
+
+- Audio (TTS): реплика Лео — «Может, стоит иначе на это смотреть. (пауза) Я ведь только хочу, чтобы нам
+  обоим было легче.» voice_id `ef70cc83-3015-4bad-9359-0ea968c43ec0` (пресет «Caspian»), model
+  `text2speech_v2`, variant `minimax`. `duration` ≥ длины TTS-файла (включая паузу), округлённой вверх.
+
+- Wan 2.7 prompt: "Hold the close-up of Leo delivering his reframe, DreamWorks-style 3D animation,
+  including a brief pause before his last line. He says: 'Maybe you should look at it differently.'
+  (pause) 'I just want things to be easier for both of us.' His mouth movement follows the provided
+  audio track exactly, including staying still during the pause. The same slow, deliberate blink from
+  shot 5 returns here, with a faint head tilt — his familiar 'caring' mannerism, now doing quieter work.
+  Camera static, shallow depth of field. Delivery should read as loving and reasonable, not cruel — the
   manipulation is entirely in the words."
 
 - Continuation: Cut to shot 12 on Vanessa's question.
@@ -380,10 +461,17 @@ Visual Bible.
 - Negative prompt: "No smirk, no confrontational expression, no raised eyebrow of challenge, no
   photoreal rendering."
 
-- Kling 3.0 Standard prompt: "Hold the close-up of Vanessa asking her question for 3–4 s, DreamWorks-style 3D
-  animation. Her hands and shoulders stay still and unclenched — no fidgeting, no touching her ring or
-  hair. Camera static with slight rack focus to keep her eyes sharp. Delivery is calm and sincere,
-  almost tender — not a challenge."
+- **Wan 2.7 input: первый кадр + audio_references.** Один говорящий в кадре — чистый случай.
+
+- Audio (TTS): реплика Ванессы — «А тебе самому — легко?» voice_id `41023a48-71ab-478a-bea7-c7b5a78f6b36`
+  (пресет «Sienna»), model `text2speech_v2`, variant `minimax`. `duration` ≥ длины TTS-файла, округлённой
+  вверх.
+
+- Wan 2.7 prompt: "Hold the close-up of Vanessa asking her question, DreamWorks-style 3D animation. She
+  says: 'Is it easy for you?' Her mouth movement follows the provided audio track exactly. Her hands and
+  shoulders stay still and unclenched — no fidgeting, no touching her ring or hair. Camera static with
+  slight rack focus to keep her eyes sharp. Delivery is calm and sincere, almost tender — not a
+  challenge."
 
 - Continuation: Cut to shot 13 on Leo's reaction.
 
@@ -482,13 +570,16 @@ Visual Bible.
 
 - All GPT Image prompts should be used to generate high-resolution keyframes that capture the
   composition, lighting, mood and DreamWorks-style 3D render of each shot. These images become the
-  reference for the Kling 3.0 Standard animations, and must match the character reference sheets in Визуализации/.
+  reference for the Wan 2.7 / Kling 3.0 Standard animations, and must match the character reference
+  sheets in Визуализации/.
 
 - Negative prompts explicitly exclude photorealism/live-action rendering and comedic/chibi
   proportions to keep the tone consistent with a mature, cinematic animated drama.
 
-- Kling 3.0 Standard prompts should describe movement, virtual lens, duration and mood succinctly. Use "start from the
-  reference image" as a baseline.
+- Animation prompts (Wan 2.7 for dialogue shots, Kling 3.0 Standard for the rest) should describe
+  movement, virtual lens, duration and mood succinctly. Use "start from the reference image" as a
+  baseline. For Wan 2.7 shots, the actual dialogue line is written into the prompt itself (not just
+  "he speaks softly") so the described performance matches the words being spoken via `audio_references`.
 
 - Continuity checklists should be consulted by the person responsible for visual consistency before and
   after each generation pass.
@@ -496,19 +587,34 @@ Visual Bible.
 - Rendering notes remind the compositing team of the desired DreamWorks-style 3D look (no film grain,
   no photoreal skin) and aspect ratio (9:16 vertical for social media).
 
-## Open Issue: Lip Sync
+## ✅ Липсинк решён через Wan 2.7 (не через dubbing)
 
-Kling 3.0 Standard does not lip-sync mouth movement to the actual dialogue text — a shot generated from
-a prompt like "he speaks softly" produces generic talking motion, not phoneme-accurate lip movement for
-the Russian line in Dialogue: Pilot (Episode 1).md. This still needs a resolved pipeline before final
-production. Working plan (not yet finalized):
+Изначальный план («немой Kling-клип → `dubbing` поверх него») не сработал: `dubbing` переводит и
+пересинхронизирует уже существующую в видео речь — а у немого Kling-клипа речи нет вообще, инструмент
+падает (протестировано на шоте 3, job завершился со статусом `failed`, кредиты вернулись автоматически).
 
-1. Generate the silent/generic-talking Kling clip per shot as described above.
-2. Generate the Russian voice line via TTS — **voice choice now locked** (see Character Bible → «Голос»
-   for each character): Leo = preset «Caspian», Vanessa = preset «Sienna», both via `text2speech_v2`
-   / variant `minimax` (chosen after comparing seed_audio, elevenlabs, minimax, seed_speech, vibe_voice,
-   cozy_voice on psychologically representative lines — seed_audio had an unusable accent on Russian
-   text; minimax read as the best fit for both characters).
-3. Run a dubbing/lip-sync pass (e.g. the `dubbing` tool, target_language=rus) over the silent clip with
-   the real line to re-sync the mouth. Unverified whether this works on a clip with no original audio
-   track — test on a single shot before committing to the full episode.
+**Рабочий пайплайн для шотов с репликой на камеру:**
+
+1. Сгенерировать TTS-реплику через `generate_audio` (`text2speech_v2` / `minimax`, локальные голоса —
+   Лео = «Caspian» `ef70cc83-3015-4bad-9359-0ea968c43ec0`, Ванесса = «Sienna»
+   `41023a48-71ab-478a-bea7-c7b5a78f6b36`).
+2. Сгенерировать сам видео-шот через `generate_video`, model `wan2_7`, передав стартовый (и, где нужно,
+   финишный) кадр как `start_image`/`end_image` и готовый TTS-файл как `audio_references`. Модель
+   синхронизирует движение рта под реальную озвучку, а не под текстовое описание.
+3. **`duration` обязательно ≥ фактической длины TTS-файла, округлённой вверх до целой секунды.** В
+   тесте на шоте 3 TTS занял 6.22 с, а `duration` был выставлен в 6 — конец фразы обрезался видеорядом,
+   из-за чего к финалу реплики губы и звук расходились. При duration ≥ длины аудио этой проблемы быть не
+   должно (не перепроверено на новом прогоне, но причина установлена однозначно).
+4. Готовый клип от Wan 2.7 идёт **без звука в файле** — озвучку нужно свести/наложить отдельно в монтаже
+   (TTS-файл уже есть от шага 1, просто не встроен автоматически в видеофайл).
+
+**Почему Wan 2.7, а не Seedance 2.0:** обе модели тестировались на шоте 3 с одинаковыми
+стартовым/финишным кадром и озвучкой. Seedance 2.0 (27 кредитов) дал движение рта, но без звука в файле
+и с «плывущим» фоном между кадрами. Wan 2.7 (9 кредитов) — звук был встроен, фон стабильный; из минусов
+— рассинхрон губ, но он объясняется багом с длительностью (см. пункт 3), а не моделью как таковой.
+
+**Открытый риск:** шоты 4, 6, 9 — мультиспикерные (в кадре либо говорят оба персонажа по очереди, либо
+звучит закадровая реплика второго персонажа). У Wan 2.7 один слот `audio_references` на клип; промпты
+для этих шотов явно прописывают, чья реплика звучит в какой момент и что лицо в кадре должно
+молчать/слушать во время чужих слов, но фонемная точность на нескольких голосах в одной дорожке пока не
+протестирована отдельно — стоит проверить на одном из этих трёх шотов перед тем, как гнать всю сцену.
