@@ -133,9 +133,11 @@ Visual Bible.
 ## Shot 3 – Leo Entrance (Balcony)
 
 - GPT Image prompt: "Medium shot of Leo, DreamWorks-style 3D animated character, carrying two mugs
-  stepping out onto a balcony at night. Russet/blond wavy hair, bright blue eyes, dark minimalist
-  sweater, matching his character reference sheet. The railing and a small table are visible; the city
-  skyline glows behind him. 50 mm virtual lens, warm candlelight, cinematic 3D animated lighting."
+  stepping out onto a balcony at night, his face openly warm — a genuine, unguarded smile as he looks
+  toward Vanessa, eyes soft with real affection. Russet/blond wavy hair, bright blue eyes, dark
+  minimalist sweater, matching his character reference sheet. The railing and a small table are visible;
+  the city skyline glows behind him. 50 mm virtual lens, warm candlelight, cinematic 3D animated
+  lighting."
 
 - Negative prompt: "No smirking/villain caricature, no exaggerated swagger, no plastic/waxy skin, no
   futuristic clothing, no photoreal rendering."
@@ -154,7 +156,8 @@ Visual Bible.
 - Kling 3.0 Standard prompt: "Leo enters from the apartment doorway onto the balcony at night,
   DreamWorks-style 3D animation. He says: 'Замёрзла? Я по тишине понял, что ты здесь. Ты всегда
   затихаешь, когда думаешь.' The camera (virtual steadicam) follows him in a smooth arc towards Vanessa
-  as he speaks. As he reaches her, he extends one of the two mugs toward her with his hand and she
+  as he speaks, his face visibly warm and affectionate, eyes crinkled with genuine tenderness as he
+  looks at her. As he reaches her, he extends one of the two mugs toward her with his hand and she
   reaches out and takes it into her own hand — a clear, deliberate physical handoff, both hands visible
   at the moment of exchange. Leo keeps the second mug in his other hand. Right after the handoff, his
   free hand rests briefly on the railing beside her or lightly at her shoulder — his familiar, quiet way
@@ -179,9 +182,10 @@ Visual Bible.
 ## Shot 4 – Two-Shot (Balcony)
 
 - GPT Image prompt: "Two DreamWorks-style 3D animated characters, Vanessa and Leo, stand side by side
-  on a balcony at night, each holding a mug. Leo gazes softly at Vanessa; she looks down shyly. Warm
-  candlelight illuminates their faces while the Moscow skyline blurs behind them. 50 mm virtual lens,
-  cinematic 3D animated lighting."
+  on a balcony at night, each holding a mug. Leo gazes at Vanessa with unmistakable warmth and
+  adoration, his eyes soft and fully focused on her; she looks down with a shy smile that visibly
+  reaches her eyes, clearly pleased. Warm candlelight illuminates their faces while the Moscow skyline
+  blurs behind them. 50 mm virtual lens, cinematic 3D animated lighting."
 
 - Negative prompt: "No dramatic backlighting, no glamorous fashion beyond reference sheets, no visible
   rig/skeleton artifacts, no lens flares, no photoreal skin."
@@ -195,9 +199,11 @@ Visual Bible.
   DreamWorks-style 3D animation. Perform a slow dolly inwards for 4 s while the characters take small
   sips and exchange glances. Vanessa speaks first, quietly: 'Я не знала, что это слышно.' She stays
   still and listening the rest of the time. Leo then answers, warmly: 'Мне — слышно. Я слышу тебя, даже
-  когда ты молчишь.' Leo stands with easy, upright confidence, one hand loosely in his pocket; Vanessa
-  holds her mug with both hands, close to her body. Keep a 50 mm virtual lens; handheld breathing
-  motion. Warm tones should dominate the foreground with cool bokeh in the background."
+  когда ты молчишь.' — his face open and visibly warm as he says it, eyes soft on her. Leo stands with
+  easy, upright confidence, one hand loosely in his pocket; Vanessa holds her mug with both hands, close
+  to her body, her own smile clearly readable, pleased and a little shy. Keep a 50 mm virtual lens;
+  handheld breathing motion. Warm tones should dominate the foreground with cool bokeh in the
+  background."
 
 - Continuation: Cuts to close-ups (shots 5–6) to emphasise dialogue and emotion.
 
@@ -213,10 +219,11 @@ Visual Bible.
 
 ## Shot 5 – Close-up on Leo (Balcony)
 
-- GPT Image prompt: "Close-up of Leo, DreamWorks-style 3D animated character, speaking softly at night.
-  Russet/blond wavy hair, bright blue eyes, calm expression matching his reference sheet's 'влюбленный'
-  emotion pose. Warm candlelight illuminates his features; the background is a dark bokeh of city
-  lights. 85 mm virtual lens, shallow depth of field, cinematic 3D animated lighting."
+- GPT Image prompt: "Close-up of Leo, DreamWorks-style 3D animated character, speaking softly at night,
+  openly and visibly besotted — eyes shining with real tenderness, a soft unguarded smile, matching and
+  pushing further into his reference sheet's 'влюбленный' emotion pose. Russet/blond wavy hair, bright
+  blue eyes. Warm candlelight illuminates his features; the background is a dark bokeh of city lights.
+  85 mm virtual lens, shallow depth of field, cinematic 3D animated lighting."
 
 - Negative prompt: "No harsh shadows, no over-sharpening, no unnatural eye reflections, no
   photorealistic skin pores."
@@ -226,10 +233,11 @@ Visual Bible.
   моя муза.» (голос «Caspian»).
 
 - Kling 3.0 Standard prompt: "Hold the close-up of Leo delivering his line, DreamWorks-style 3D
-  animation. He says: 'Помнишь, как мы только познакомились? Я тогда сразу понял — вот она, моя муза.'
-  He blinks slowly and deliberately as he speaks — his familiar 'caring listener' mannerism. The camera
-  remains static with micro-jitters to emulate handheld. Maintain an 85 mm virtual lens; ensure the
-  light source flickers subtly on his face."
+  animation. He says: 'Помнишь, как мы только познакомились? Я тогда сразу понял — вот она, моя муза.' —
+  his eyes visibly shining with warmth as he speaks, the tenderness openly readable on his whole face,
+  not just implied. He blinks slowly and deliberately as he speaks — his familiar 'caring listener'
+  mannerism. The camera remains static with micro-jitters to emulate handheld. Maintain an 85 mm virtual
+  lens; ensure the light source flickers subtly on his face."
 
 - Continuation: After his line, cut to shot 6 for Vanessa's reaction.
 
@@ -244,9 +252,11 @@ Visual Bible.
 ## Shot 6 – Close-up on Vanessa (Balcony)
 
 - GPT Image prompt: "Close-up of Vanessa, DreamWorks-style 3D animated character, listening intently at
-  night. Dark wavy hair, emerald-green eyes, expression shifting between hope and doubt (see her
-  'задумчивая' reference pose). Warm candlelight highlights her features; cool city lights rim the
-  frame. 85 mm virtual lens, cinematic 3D animated lighting."
+  night, her face visibly lit up with hope, eyes bright and open — a clearly readable emotional swing
+  between hope and a sharper flicker of doubt (see her 'задумчивая' reference pose, pushed further into
+  legible feeling rather than just implied in the eyes). Dark wavy hair, emerald-green eyes. Warm
+  candlelight highlights her features; cool city lights rim the frame. 85 mm virtual lens, cinematic 3D
+  animated lighting."
 
 - Negative prompt: "No tears, no smiling, no cinematic bloom, no lens distortion, no photoreal
   rendering."
@@ -260,11 +270,13 @@ Visual Bible.
 - Kling 3.0 Standard prompt: "Hold the close-up of Vanessa reacting, DreamWorks-style 3D animation. She
   asks softly: 'Правда?' — her mouth moves only during this line. Leo's voice answers off-screen:
   'Правда. Без тебя я просто хорошо одетый человек. С тобой — я чувствую, что живу.' — during his line
-  her face stays still and listening, her mouth does not move, only her eyes react. Then she says
-  quietly: '...Хорошо.' — her mouth moves again only for this final line. Her eyes flicker as she
-  processes his words, and her fingers may drift toward her ring or a strand of hair — her habitual
-  small gesture when uncertain. The camera is static with subtle handheld sway. Maintain 85 mm virtual
-  lens and shallow depth of field."
+  her face stays still and listening, only her eyes react — but visibly, a clear flicker of doubt or
+  unease crossing her features, not just a subtle shift. Then she says quietly: '...Хорошо.' — her mouth
+  moves again only for this final line, her expression softening back into a quieter, visibly readable
+  warmth. The emotional swing from her bright hope on 'Правда?' through the flicker of doubt to this
+  softer resolution should be clearly legible on her face, not left only in the eyes. Her fingers may
+  drift toward her ring or a strand of hair — her habitual small gesture when uncertain. The camera is
+  static with subtle handheld sway. Maintain 85 mm virtual lens and shallow depth of field."
 
 - Continuation: Crossfade to shot 7 (insert of cups) as conversation ends.
 
@@ -343,9 +355,10 @@ Visual Bible.
 ## Shot 9 – Two-Shot, Already Mid-Conversation (Kitchen)
 
 - GPT Image prompt: "Two-shot of Vanessa and Leo, DreamWorks-style 3D animated characters, standing in
-  a modern kitchen in warm morning light — no food, no cooking props in use. Leo speaks calmly, almost
-  gently; Vanessa begins to answer, caught mid-word. Both match their character reference sheets
-  exactly. 50 mm virtual lens, cinematic 3D animated lighting."
+  a modern kitchen in warm morning light — no food, no cooking props in use. Leo speaks calmly, his warm
+  expression completely genuine and unguarded on his face; Vanessa begins to answer, caught mid-word,
+  a clear flicker of surprise and hurt crossing her eyes before she composes herself. Both match their
+  character reference sheets exactly. 50 mm virtual lens, cinematic 3D animated lighting."
 
 - Negative prompt: "No cooking utensils in use, no plates of food, no exaggerated expressions, no
   visible anger or raised voices in body language, no photoreal rendering."
@@ -357,12 +370,13 @@ Visual Bible.
 
 - Kling 3.0 Standard prompt: "Animate the two characters already in conversation, DreamWorks-style 3D
   animation. Leo speaks first, calmly and almost warmly: 'Знаешь, сколько людей были бы счастливы на
-  твоём месте?' — hands resting in his pockets or loosely clasped behind his back, head tilted slightly
-  toward her — his familiar posture when steering a conversation. Vanessa begins to answer, her hand
-  lifting slightly: 'Я счастлива. Просто вчера...' — she is cut off mid-sentence, her hand stills. Leo
-  interrupts gently: 'Я же не жалуюсь, когда прихожу домой уставшим. Не превращаю это в трагедию.'
-  Camera is static at eye level with a barely perceptible push-in as the exchange lands. Maintain a
-  50 mm virtual lens."
+  твоём месте?' — his warmth completely genuine and visible on his face, hands resting in his pockets or
+  loosely clasped behind his back, head tilted slightly toward her — his familiar posture when steering
+  a conversation. Vanessa begins to answer, her hand lifting slightly: 'Я счастлива. Просто вчера...' —
+  she is cut off mid-sentence, a clear flicker of surprise and hurt visible in her eyes for a moment
+  before she composes herself, her hand stills. Leo interrupts gently: 'Я же не жалуюсь, когда прихожу
+  домой уставшим. Не превращаю это в трагедию.' Camera is static at eye level with a barely perceptible
+  push-in as the exchange lands. Maintain a 50 mm virtual lens."
 
 - Continuation: Cut to shot 10 on Vanessa as she answers.
 
@@ -379,9 +393,10 @@ Visual Bible.
 ## Shot 10 – Close-up on Vanessa, First Named Hurt (Kitchen)
 
 - GPT Image prompt: "Close-up of Vanessa, DreamWorks-style 3D animated character, speaking quietly in
-  soft morning light. Long dark wavy hair, emerald-green eyes, calm but hurt expression — not tearful,
-  not defensive. Matches her character reference sheet exactly. 85 mm virtual lens, shallow depth of
-  field, cinematic 3D animated lighting."
+  soft morning light, her eyes visibly glistening with real hurt, brows subtly drawn with pain that
+  reads clearly on her face even as she holds herself together — calm but unmistakably hurting, not
+  tearful, not defensive. Long dark wavy hair, emerald-green eyes. Matches her character reference sheet
+  exactly. 85 mm virtual lens, shallow depth of field, cinematic 3D animated lighting."
 
 - Negative prompt: "No tears, no raised eyebrows of anger, no exaggerated hurt expression, no
   photoreal rendering."
@@ -390,10 +405,12 @@ Visual Bible.
   Ванесса — «Я не устраивала трагедию. Мне правда было больно.» (голос «Sienna»).
 
 - Kling 3.0 Standard prompt: "Hold the close-up of Vanessa delivering her line, DreamWorks-style 3D
-  animation. She says: 'Я не устраивала трагедию. Мне правда было больно.' Unlike her usual habit, her
-  hands stay still and she doesn't touch her ring or hair here — for once she holds herself steady while
-  she speaks. Camera static, shallow depth of field. Her delivery is quiet and plain, not a complaint —
-  the first time in the episode she names her feelings directly."
+  animation. She says: 'Я не устраивала трагедию. Мне правда было больно.' — her eyes visibly glistening
+  with real hurt as she says it, the pain clearly readable on her face even though her voice stays quiet
+  and plain. Unlike her usual habit, her hands stay still and she doesn't touch her ring or hair here —
+  for once she holds herself steady while she speaks. Camera static, shallow depth of field. Her
+  delivery is quiet, not a complaint — the first time in the episode she names her feelings directly, and
+  her face should make that cost visible."
 
 - Continuation: Cut to shot 11 on Leo's response.
 
@@ -408,9 +425,11 @@ Visual Bible.
 ## Shot 11 – Close-up on Leo, the Caring-Sounding Reframe (Kitchen)
 
 - GPT Image prompt: "Close-up of Leo, DreamWorks-style 3D animated character, speaking gently in warm
-  morning light. Russet/blond wavy hair, bright blue eyes, soft almost-tender expression matching his
-  reference sheet's warmer emotion poses — not a smirk, not overtly smug. 85 mm virtual lens, shallow
-  depth of field, cinematic 3D animated lighting."
+  morning light, his warmth completely convincing and visibly genuine — eyes soft, a caring half-smile
+  that reads as entirely sincere, matching and pushing further into his reference sheet's warmer emotion
+  poses. Not a smirk, not overtly smug — this has to look like real love for the manipulation underneath
+  it to work. Russet/blond wavy hair, bright blue eyes. 85 mm virtual lens, shallow depth of field,
+  cinematic 3D animated lighting."
 
 - Negative prompt: "No smirking/villain caricature, no visible anger, no exaggerated warmth, no
   photoreal rendering."
@@ -421,10 +440,11 @@ Visual Bible.
 
 - Kling 3.0 Standard prompt: "Hold the close-up of Leo delivering his reframe, DreamWorks-style 3D
   animation, including a brief pause before his last line. He says: 'Может, стоит иначе на это
-  смотреть.' (pause) 'Я ведь только хочу, чтобы нам обоим было легче.' The same slow, deliberate blink
-  from shot 5 returns here, with a faint head tilt — his familiar 'caring' mannerism, now doing quieter
-  work. Camera static, shallow depth of field. Delivery should read as loving and reasonable, not cruel
-  — the manipulation is entirely in the words."
+  смотреть.' (pause) 'Я ведь только хочу, чтобы нам обоим было легче.' — his face visibly warm and
+  soft throughout, eyes tender, the caring completely convincing to look at. The same slow, deliberate
+  blink from shot 5 returns here, with a faint head tilt — his familiar 'caring' mannerism, now doing
+  quieter work. Camera static, shallow depth of field. Delivery should read as loving and reasonable,
+  not cruel — the manipulation is entirely in the words, so his face must be unmistakably warm."
 
 - Continuation: Cut to shot 12 on Vanessa's question.
 
@@ -440,9 +460,10 @@ Visual Bible.
 ## Shot 12 – Close-up on Vanessa, the Disarming Question (Kitchen)
 
 - GPT Image prompt: "Close-up of Vanessa, DreamWorks-style 3D animated character, asking a quiet
-  question in soft morning light. Calm, genuinely curious expression — not challenging, not ironic.
-  Matches her character reference sheet exactly. 85 mm virtual lens, shallow depth of field, cinematic
-  3D animated lighting."
+  question in soft morning light, her curiosity completely open and visible on her face, eyes wide and
+  genuinely present, not guarded at all — not challenging, not ironic, unmistakably sincere. Matches her
+  character reference sheet exactly. 85 mm virtual lens, shallow depth of field, cinematic 3D animated
+  lighting."
 
 - Negative prompt: "No smirk, no confrontational expression, no raised eyebrow of challenge, no
   photoreal rendering."
@@ -451,9 +472,10 @@ Visual Bible.
   Ванесса — «А тебе самому — легко?» (голос «Sienna»).
 
 - Kling 3.0 Standard prompt: "Hold the close-up of Vanessa asking her question, DreamWorks-style 3D
-  animation. She says: 'А тебе самому — легко?' Her hands and shoulders stay still and unclenched — no
-  fidgeting, no touching her ring or hair. Camera static with slight rack focus to keep her eyes sharp.
-  Delivery is calm and sincere, almost tender — not a challenge."
+  animation. She says: 'А тебе самому — легко?' — her eyes wide, open and genuinely present, the
+  sincerity completely visible on her face, not guarded. Her hands and shoulders stay still and
+  unclenched — no fidgeting, no touching her ring or hair. Camera static with slight rack focus to keep
+  her eyes sharp. Delivery is calm and sincere, almost tender — not a challenge."
 
 - Continuation: Cut to shot 13 on Leo's reaction.
 
