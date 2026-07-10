@@ -95,48 +95,57 @@ Shot   Type / Lens                                                              
                      waist-up.
 ```
 
-                     Leo’s face      Static
-                     in profile as   close-up
-                                                      Warm light
-                     he speaks       with shallow                      Emphasises Leo’s
-                                                      on face;
-       Close-up;     about           depth of                          charm; invites       Cut to
-5                                                     background
-       85 mm         sacrifice.      field,                            audience to trust    shot 6.
-                                                      fades into
-                     His eyes        emphasising                       him.
-                                                      darkness.
-                     glisten; his    eyes and
-                     voice soft.     mouth.
+### Шот 5 — крупный план Лео; 85 мм
 
-                     Vanessa
-                                                      Warm
-                     listening,
-                                     Static; slight   candlelight                           Crossfade to
-                     eyes
-       Close-up;                     rack focus to    on cheeks;       Shows Vanessa’s      shot 7 as
-6                    flickering
-       85 mm                         keep her         city lights      internal conflict.   conversation
-                     between
-                                     eyes sharp.      provide cool                          winds down.
-                     hope and
-                                                      rim.
-                     hesitation.
+Description & Blocking: Крупный план Лео — он говорит об их знакомстве и о том, что она его муза.
+Глаза блестят, голос мягкий.
+Camera/Movement: Статичный крупный план, малая ГРИП, фон уходит в тёмный боке.
+Lighting & Color: Тёплый свет на лице; фон затемнён, подчёркивая глаза и рот.
+Emotion & Purpose: Подчёркивает обаяние Лео; приглашает зрителя довериться ему.
+Transition: Кат в шот 6a.
 
-                     Two cups
-                     sitting on      Static
-                                     overhead        Warm glow of
-                     table           close-up;       candle and
-       Insert;       beside          holds, then     city lights      No dialogue.
-7      close-up;     them. Both      dissolves as    at night,        Symbolises      Match-
-       35 mm         nearly full.    surrounding      dissolving       unconsumed      dissolve,
-                     Candle          light shifts     through dawn     promises;       still
-                     burning         night → dawn     amber into       the whole       close, into
-                     beside them.    → morning,       soft cool        night passes    shot 8.
-                     No characters   camera never     morning          inside this
-                     visible.        leaves the       daylight by      one close
-                                     cups.            shot's end.      shot.
-```
+### Шот 6 — три под-шота (6a/6b/6c), крупные планы; 85 мм
+
+Реплика Лео здесь звучит **в кадре**, а не закадрово — раньше камера держала Ванессу на всём обмене
+репликами, но это и физически неправдоподобно (реплика ниоткуда), и не позволяет чисто озвучить шот в
+постпродакшне (два голоса на одной дорожке). Разбивка на три под-шота с одним говорящим в кадре у
+каждого решает обе проблемы разом.
+
+**Шот 6a — Ванесса, короткий вопрос.**
+Description & Blocking: Ванесса слушает, лицо светлеет надеждой; спрашивает тихо: «Правда?»
+Camera/Movement: Статично, лёгкий rack focus, чтобы держать её глаза резкими.
+Lighting & Color: Тёплый свет свечи на щеках; городские огни дают холодный контур.
+Emotion & Purpose: Первая явная вспышка надежды в разговоре.
+Transition: Кат в шот 6b.
+
+**Шот 6b — Лео, ответ (теперь в кадре).**
+Description & Blocking: Лео отвечает, глядя на неё: «Правда. Без тебя я просто хорошо одетый человек.
+С тобой — я чувствую, что живу.»
+Camera/Movement: Статично, малая ГРИП.
+Lighting & Color: Тёплый свет свечи на лице.
+Emotion & Purpose: Та же тёплая, подкупающая интонация, что и в шоте 5 — зритель должен ему верить.
+Transition: Кат обратно в шот 6c.
+
+**Шот 6c — Ванесса, растерянность.**
+Description & Blocking: Ванесса смотрит на него нежно, но на миг заметно теряется — лёгкая растерянность
+на лице, взгляд соскальзывает на город, затем тихо: «...Хорошо.»
+Camera/Movement: Статично, лёгкое дыхание камеры.
+Lighting & Color: Тёплый свет свечи на щеках; холодный контур от городских огней.
+Emotion & Purpose: Показывает внутренний, ещё не осознанный конфликт Ванессы — не чистая радость, а
+растерянность под ней.
+Transition: Crossfade в шот 7, разговор затихает.
+
+### Шот 7 — инсерт кружек (переход ночь → рассвет); 35 мм, только крупный план
+
+Description & Blocking: Две кружки на столе, обе почти полные. Свеча горит рядом. Персонажей в кадре
+нет.
+Camera/Movement: Статичный крупный план сверху; кадр держится, затем растворяется, пока свет вокруг
+меняется с ночи на рассвет — камера ни разу не уходит от кружек.
+Lighting & Color: Тёплое свечение свечи и городских огней ночью, растворяющееся в мягкий прохладный
+рассветный дневной свет к концу шота.
+Emotion & Purpose: Без реплик. Символизирует невыпитые обещания; вся ночь проходит внутри одного этого
+крупного плана.
+Transition: Match-dissolve, всё ещё крупно, в шот 8.
 
 ## Scene 2 – Kitchen (Morning)
 
@@ -229,7 +238,9 @@ Transition: Fade out to end episode.
 
 4. Camera Movement: Minimal movement in establishing shots; subtle push-ins and handheld sway mimic breathing and create intimacy; transitions use cuts or dissolves as noted.
 
-5. Duration: 15 shots total; each lasts 3–8 seconds, allowing enough time for viewers to perceive emotion without dragging the pace. Total episode duration remains within ≈60 seconds. 1    35mm, 50mm, 85mm Comparison | Lens Review - shanelongphotography.com
+5. Duration: 15 numbered shots total (shot 6 splits into three single-speaker sub-shots — 6a/6b/6c —
+   for 17 generations overall); each lasts 3–8 seconds, allowing enough time for viewers to perceive
+   emotion without dragging the pace. Total episode duration remains within ≈60 seconds. 1    35mm, 50mm, 85mm Comparison | Lens Review - shanelongphotography.com
 
 https://shanelongphotography.com/2020/04/27/35mm-50mm-85mm-comparison-lens-review/
 

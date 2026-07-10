@@ -58,7 +58,9 @@ Visual Bible.
 | **3** | **первый + последний** | **да** | Лео говорит + передаёт кружку — проверено и подтверждено (см. «✅ Липсинк решён») |
 | **4** | первый | **да** | двухкадр, реплики обоих персонажей подряд — мультиспикерный, см. примечание ниже |
 | **5** | первый | **да** | крупный план Лео, один говорящий |
-| **6** | первый | **да** | крупный план Ванессы; реплика Лео звучит закадрово, пока камера держит её — мультиспикерный |
+| **6a** | первый | **да** | крупный план Ванессы, один говорящий («Правда?») |
+| **6b** | первый | **да** | крупный план Лео, один говорящий — реплика теперь физически в кадре, не закадрово |
+| **6c** | первый | **да** | крупный план Ванессы, один говорящий («...Хорошо.») |
 | 7 | первый + последний | нет | инсерт кружек, смена света ночь→рассвет, без реплик |
 | 8 | первый + последний | нет | отъезд камеры к кухне, без реплик в этом шоте |
 | **9** | первый | **да** | двухкадр, реплики обоих персонажей подряд — мультиспикерный |
@@ -69,7 +71,11 @@ Visual Bible.
 | **14** | **первый + последний** | нет | реакция Ванессы без реплики, нужен опорный кадр взгляда вниз |
 | 15 | первый | нет | финальный инсерт, без реплик |
 
-**Мультиспикерные шоты (4, 6, 9).** С новым пайплайном это менее рискованно, чем казалось с Wan 2.7:
+**Шот 6 разбит на три под-шота (6a/6b/6c)** — раньше это был один мультиспикерный кадр на Ванессе с
+закадровой репликой Лео; теперь Лео физически в кадре для своей реплики, и каждый под-шот — чистый
+одноголосый случай, как 5/10/11/12.
+
+**Мультиспикерные шоты (4, 9).** С новым пайплайном это менее рискованно, чем казалось с Wan 2.7:
 раз замена звука идёт в посте по обнаруженным сегментам речи (см. «✅ Липсинк решён»), для шотов с
 несколькими репликами подряд нужно просто найти в тарабарской дорожке Kling **несколько** отрезков
 речи (а не один) и наложить на каждый свою реплику нужным голосом — тот же `silencedetect`, применённый
@@ -239,7 +245,7 @@ Visual Bible.
   mannerism. The camera remains static with micro-jitters to emulate handheld. Maintain an 85 mm virtual
   lens; ensure the light source flickers subtly on his face."
 
-- Continuation: After his line, cut to shot 6 for Vanessa's reaction.
+- Continuation: After his line, cut to shot 6a for Vanessa's reaction.
 
 - Motion notes: Micro-jitters only; no rack focus. The slow blink should read as warm, not sleepy or
   theatrical — per Character Bible, it's what makes him seem like a "caring" listener.
@@ -249,34 +255,83 @@ Visual Bible.
 
 - Rendering notes: Maintain clean render with soft subsurface skin shading; maintain warm midtones.
 
-## Shot 6 – Close-up on Vanessa (Balcony)
+## Shot 6a – Close-up on Vanessa, the Question (Balcony)
+
+Раньше шот 6 был одним мультиспикерным кадром на Ванессе, а реплика Лео звучала закадрово — физически
+неправдоподобно и требовало разделять два голоса на одной аудиодорожке в посте. Разбит на три чистых
+одноголосых под-шота (6a/6b/6c): Лео теперь физически в кадре для своей реплики.
 
 - GPT Image prompt: "Close-up of Vanessa, DreamWorks-style 3D animated character, listening intently at
-  night, her face visibly lit up with hope, eyes bright and open — a clearly readable emotional swing
-  between hope and a sharper flicker of doubt (see her 'задумчивая' reference pose, pushed further into
-  legible feeling rather than just implied in the eyes). Dark wavy hair, emerald-green eyes. Warm
-  candlelight highlights her features; cool city lights rim the frame. 85 mm virtual lens, cinematic 3D
-  animated lighting."
+  night, her face visibly lighting up with hope, eyes bright and open as she asks a question. Dark wavy
+  hair, emerald-green eyes. Warm candlelight highlights her features; cool city lights rim the frame.
+  85 mm virtual lens, cinematic 3D animated lighting."
+
+- Negative prompt: "No tears, no cinematic bloom, no lens distortion, no photoreal rendering."
+
+- **Kling input: первый кадр, `sound: on`.** Один говорящий в кадре — чистый случай. Реальная реплика:
+  Ванесса — «Правда?» (голос «Sienna»).
+
+- Kling 3.0 Standard prompt: "Hold the close-up of Vanessa, DreamWorks-style 3D animation. She asks
+  softly, hope visibly lighting up her face: 'Правда?' Her eyes stay bright and open, genuinely hopeful.
+  Camera static with subtle handheld sway. Maintain 85 mm virtual lens and shallow depth of field."
+
+- Continuation: Cut to shot 6b as Leo answers, now in frame.
+
+- Motion notes: Slight breathing movement; ensure eyes stay in focus.
+
+- Continuity checklist: Hair parting consistent with reference sheet; jewellery (pendant) visible;
+  candlelight flicker.
+
+- Rendering notes: Balanced highlights; maintain warm key light and cool rim.
+
+## Shot 6b – Close-up on Leo, the Answer (Balcony)
+
+- GPT Image prompt: "Close-up of Leo, DreamWorks-style 3D animated character, speaking warmly at night,
+  his face openly tender as he answers her — eyes soft, a genuine unguarded warmth. Russet/blond wavy
+  hair, bright blue eyes. Warm candlelight illuminates his features; the background is a dark bokeh of
+  city lights. 85 mm virtual lens, shallow depth of field, cinematic 3D animated lighting."
+
+- Negative prompt: "No smirking/villain caricature, no harsh shadows, no photorealistic skin pores, no
+  photoreal rendering."
+
+- **Kling input: первый кадр, `sound: on`.** Один говорящий в кадре — чистый случай. Реальная реплика:
+  Лео — «Правда. Без тебя я просто хорошо одетый человек. С тобой — я чувствую, что живу.» (голос
+  «Caspian»).
+
+- Kling 3.0 Standard prompt: "Hold the close-up of Leo, DreamWorks-style 3D animation. He answers her,
+  his face visibly warm and tender: 'Правда. Без тебя я просто хорошо одетый человек. С тобой — я
+  чувствую, что живу.' The same open warmth as shot 5 — this line should read as completely genuine.
+  Camera static, shallow depth of field. Maintain 85 mm virtual lens."
+
+- Continuation: Cut back to shot 6c on Vanessa's reaction.
+
+- Motion notes: Minimal movement; hold on his eyes.
+
+- Continuity checklist: Leo's hair/stubble as per Character Bible and reference sheet; consistent
+  background bokeh; candle light warm.
+
+- Rendering notes: Maintain clean render with soft subsurface skin shading; maintain warm midtones.
+
+## Shot 6c – Close-up on Vanessa, Thrown Off Balance (Balcony)
+
+- GPT Image prompt: "Close-up of Vanessa, DreamWorks-style 3D animated character, looking at him
+  tenderly, then visibly thrown off balance for a moment — a clear, readable flicker of being
+  unsettled/уncertain crossing her face, gaze slipping toward the city. Dark wavy hair, emerald-green
+  eyes. Warm candlelight highlights her features; cool city lights rim the frame. 85 mm virtual lens,
+  cinematic 3D animated lighting."
 
 - Negative prompt: "No tears, no smiling, no cinematic bloom, no lens distortion, no photoreal
   rendering."
 
-- **Kling input: первый кадр, `sound: on`.** Мультиспикерный случай: в кадре Ванесса, но звучит и её, и
-  закадровая реплика Лео — постпродакшн находит три сегмента речи и накладывает на каждый свою реплику.
-  Реальные реплики: Ванесса — «Правда?» (голос «Sienna»); Лео закадрово — «Правда. Без тебя я просто
-  хорошо одетый человек. С тобой — я чувствую, что живу.» (голос «Caspian»); Ванесса — «...Хорошо.»
-  (голос «Sienna»).
+- **Kling input: первый кадр, `sound: on`.** Один говорящий в кадре — чистый случай. Реальная реплика:
+  Ванесса — «...Хорошо.» (голос «Sienna»).
 
-- Kling 3.0 Standard prompt: "Hold the close-up of Vanessa reacting, DreamWorks-style 3D animation. She
-  asks softly: 'Правда?' — her mouth moves only during this line. Leo's voice answers off-screen:
-  'Правда. Без тебя я просто хорошо одетый человек. С тобой — я чувствую, что живу.' — during his line
-  her face stays still and listening, only her eyes react — but visibly, a clear flicker of doubt or
-  unease crossing her features, not just a subtle shift. Then she says quietly: '...Хорошо.' — her mouth
-  moves again only for this final line, her expression softening back into a quieter, visibly readable
-  warmth. The emotional swing from her bright hope on 'Правда?' through the flicker of doubt to this
-  softer resolution should be clearly legible on her face, not left only in the eyes. Her fingers may
-  drift toward her ring or a strand of hair — her habitual small gesture when uncertain. The camera is
-  static with subtle handheld sway. Maintain 85 mm virtual lens and shallow depth of field."
+- Kling 3.0 Standard prompt: "Hold the close-up of Vanessa, DreamWorks-style 3D animation. She looks at
+  him tenderly, then is visibly thrown off balance for a moment — a clear flicker of being unsettled
+  crossing her face, not just a subtle shift in the eyes — her gaze slips toward the city. Then she says
+  quietly, still a little thrown: '...Хорошо.' Her fingers may drift toward her ring or a strand of
+  hair — her habitual small gesture when uncertain. Camera static with subtle handheld sway. Maintain
+  85 mm virtual lens and shallow depth of field."
 
 - Continuation: Crossfade to shot 7 (insert of cups) as conversation ends.
 
@@ -629,9 +684,10 @@ Visual Bible.
    для голоса «Caspian»), а не растягивать видео замороженным кадром. Заморозка кадра в 3D-анимации
    читается как явный баг рендера, а не художественный приём — визуально недопустима.
 
-**Мультиспикерные шоты (4, 6, 9).** В кадре либо говорят оба персонажа по очереди, либо звучит
-закадровая реплика второго персонажа поверх реакции первого. Промпт по-прежнему цитирует все реплики по
-очереди на русском; в посте `silencedetect` должен найти **несколько** сегментов тарабарской речи вместо
-одного, и на каждый сегмент накладывается своя реплика нужным голосом (тот же рецепт, шаги 3–5,
-применённый по сегментам). Принцип идентичен уже подтверждённому на шоте 3, но на реальном
-многоречевом шоте пока не протестирован — сделать это перед тем, как гнать всю сцену целиком.
+**Мультиспикерные шоты (4, 9).** В кадре говорят оба персонажа по очереди. Промпт по-прежнему цитирует
+все реплики по очереди на русском; в посте `silencedetect` должен найти **несколько** сегментов
+тарабарской речи вместо одного, и на каждый сегмент накладывается своя реплика нужным голосом (тот же
+рецепт, шаги 3–5, применённый по сегментам). Принцип идентичен уже подтверждённому на шоте 3, но на
+реальном многоречевом шоте пока не протестирован — сделать это перед тем, как гнать всю сцену целиком.
+(Шот 6 раньше был таким же случаем с закадровой репликой Лео — решён по-другому: разбит на три
+одноголосых под-шота 6a/6b/6c, см. «Модель и режим ввода по шотам».)
