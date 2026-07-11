@@ -314,22 +314,31 @@ Visual Bible.
 
 ## Shot 6c – Close-up on Vanessa, Thrown Off Balance (Balcony)
 
-- GPT Image prompt: "Close-up of Vanessa, DreamWorks-style 3D animated character, looking at him
-  tenderly, then visibly thrown off balance for a moment — a clear, readable flicker of being
-  unsettled/уncertain crossing her face, gaze slipping toward the city. Dark wavy hair, emerald-green
-  eyes. Warm candlelight highlights her features; cool city lights rim the frame. 85 mm virtual lens,
-  cinematic 3D animated lighting."
+**⚠️ Пересмотрено после теста.** Первая версия этого промпта описывала «явную, читаемую вспышку
+растерянности» прямо в GPT Image кадре — а это статичный референс, который становится стартовым (и по
+факту единственным) состоянием лица на весь клип. В результате на реальной генерации Ванесса весь шот
+просидела с тревожным, широко раскрытыми глазами выражением — не вспышка, а устойчивая тревога на
+несколько секунд, из-за чего весь балкон стал читаться так, будто она уже обижена ещё до кухни. Это
+ломает всю задуманную структуру контраста (балкон = чистая романтика, ничего кроме тепла). Ниже —
+исправленная версия: стартовый кадр снова тёплый/нежный, а лёгкая заминка прописана только в
+Kling-промпте как быстрое, мимолётное движение внутри клипа, а не как поза.
 
-- Negative prompt: "No tears, no smiling, no cinematic bloom, no lens distortion, no photoreal
-  rendering."
+- GPT Image prompt: "Close-up of Vanessa, DreamWorks-style 3D animated character, looking at him
+  tenderly and warmly — soft, open, affectionate expression, continuing the warmth from the previous
+  shot. Dark wavy hair, emerald-green eyes. Warm candlelight highlights her features; cool city lights
+  rim the frame. 85 mm virtual lens, cinematic 3D animated lighting."
+
+- Negative prompt: "No tears, no wide/startled eyes, no anxious expression, no cinematic bloom, no lens
+  distortion, no photoreal rendering."
 
 - **Kling input: первый кадр, `sound: on`.** Один говорящий в кадре — чистый случай. Реальная реплика:
   Ванесса — «...Хорошо.» (голос «Sienna»).
 
 - Kling 3.0 Standard prompt: "Hold the close-up of Vanessa, DreamWorks-style 3D animation. She looks at
-  him tenderly, then is visibly thrown off balance for a moment — a clear flicker of being unsettled
-  crossing her face, not just a subtle shift in the eyes — her gaze slips toward the city. Then she says
-  quietly, still a little thrown: '...Хорошо.' Her fingers may drift toward her ring or a strand of
+  him tenderly and warmly for the first second or two — this is the dominant expression of the shot. Only
+  briefly, for less than a second, the faintest flicker of uncertainty crosses her face — barely visible,
+  gone almost as soon as it registers, not a held or lingering expression. Her warmth returns immediately
+  as she says quietly: '...Хорошо.' Her fingers may drift toward her ring or a strand of
   hair — her habitual small gesture when uncertain. Camera static with subtle handheld sway. Maintain
   85 mm virtual lens and shallow depth of field."
 
