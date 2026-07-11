@@ -295,12 +295,11 @@ Visual Bible.
   photoreal rendering."
 
 - **Kling input: первый кадр, `sound: on`.** Один говорящий в кадре — чистый случай. Реальная реплика:
-  Лео — «Правда. Без тебя я просто хорошо одетый человек. С тобой — я чувствую, что живу.» (голос
+  Лео — «Правда. Без тебя всё это — просто красивые декорации.» (голос
   «Caspian»).
 
 - Kling 3.0 Standard prompt: "Hold the close-up of Leo, DreamWorks-style 3D animation. He answers her,
-  his face visibly warm and tender: 'Правда. Без тебя я просто хорошо одетый человек. С тобой — я
-  чувствую, что живу.' The same open warmth as shot 5 — this line should read as completely genuine.
+  his face visibly warm and tender: 'Правда. Без тебя всё это — просто красивые декорации.' The same open warmth as shot 5 — this line should read as completely genuine.
   Camera static, shallow depth of field. Maintain 85 mm virtual lens."
 
 - Continuation: Cut back to shot 6c on Vanessa's reaction.
