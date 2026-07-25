@@ -63,9 +63,11 @@ Episodes 7–9 build to the climax and resolution. Vanessa starts to notice patt
 the neighbour and begins to document Leo’s contradictions. As tension mounts, Leo’s manipulations
 become more overt—he threatens to leave and blames Vanessa for the problems. The final episode
 culminates in a confrontation where Leo twists the narrative using DARVO (Deny, Attack, Reverse
-Victim and Offender). Vanessa hesitates but ultimately sets a boundary. The season ends on a
-cliff-hanger: Vanessa closes the door on Leo, but his final words hint at deeper secrets to be
-revealed in Season Two. Stage 32 notes that it’s crucial to give away the ending in the season plan
+Victim and Offender). This time Vanessa doesn't hesitate or defend herself — she turns the same
+emotional perception he has used against her all season back on him, naming his pattern so precisely
+that he has no script left to fall back on. She wins the confrontation outright. The season ends on
+a cliff-hanger not about whether she'll leave, but about what's still unresolved: Leo's own hinted
+backstory and whether Season Two follows him unravelling further. Stage 32 notes that it’s crucial to give away the ending in the season plan
 so the buyer knows what they’re investing in 8 .
 
 Storylines (A, B, C)
@@ -82,10 +84,15 @@ Storylines (A, B, C)
 
 Vanessa begins with low self-worth and a desire to feel loved. Her borderline personality traits
 mean she fears abandonment and may experience intense emotional swings 5 . At first she relies on
-Leo’s validation, ignoring red flags. Each external conflict pushes her to question Leo’s narrative
-and trust her own perceptions. By Episode 9 she recognises the abuse and asserts boundaries,
-initiating a positive internal change. However, the season leaves her still entangled emotionally—
-there is room for further growth next season.
+Leo’s validation, ignoring red flags. Underneath, she reads people — Leo included — with an
+unusually sharp, unspoken sensitivity to what they actually feel versus what they perform; for most
+of the season this makes her doubt herself rather than him, since she keeps choosing the
+interpretation where he stays the good guy. Each external conflict pushes her closer to trusting
+what she senses over what he tells her. By Episode 9 she stops making excuses for him and turns
+that same perceptiveness outward, deliberately: she reads Leo as precisely as he has always read
+her, names his pattern before he can spin it, and wins the confrontation. It isn't revenge and it
+isn't cruelty — her methods were never his — but it is a clear, active victory, not just a quiet
+release.
 
 ## Leo
 
